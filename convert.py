@@ -21,10 +21,6 @@ def is_full_url(s):
     return s.startswith('http://') or s.startswith('https://')
 
 
-def is_domain_fragment(s):
-    """Lines like .ads. .ad. — dot-wrapped fragments, not valid domains."""
-    return re.match(r'^\.[a-zA-Z0-9_-]+\.$', s) is not None
-
 
 def strip_known_prefixes(domain):
     """Remove accidental DOMAIN, / DOMAIN-SUFFIX, etc. prefixes in source."""
@@ -103,10 +99,10 @@ def convert_url_rules(lines):
         if is_comment_or_empty(line):
             continue
 
-        # Domain fragment like .ads. or .ad.
-        if is_domain_fragment(line):
-            keyword = line.strip('.')
-            out.append(f'DOMAIN-WILDCARD,*{keyword}*')
+        # Host fragment like .ads. or .ad. — match URLs whose host contains this segment
+        if re.match(r'^\.[a-zA-Z0-9_-]+\.$', line):
+            seg = re.escape(line)  # e.g. \.ads\.
+            out.append(f'URL-REGEX,^https?://[^/]*{seg}[^/]*/')
             continue
 
         # Full URL or path starting with /
