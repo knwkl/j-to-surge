@@ -5,8 +5,8 @@ URL-REGEX,^https?://[^/]+/obj/static/ad(/.*)?$
 URL-REGEX,^https?://[^/]+/mtop\.idle\.idleadv\.scene\.restore(/.*)?$
 URL-REGEX,^https?://[^/]+/app_ads(/.*)?$
 URL-REGEX,^https?://[^/]+/splash(/.*)?$
-DOMAIN-WILDCARD,*ads*
-DOMAIN-WILDCARD,*ad*
+URL-REGEX,^https?://[^/]*\.ads\.[^/]*/
+URL-REGEX,^https?://[^/]*\.ad\.[^/]*/
 URL-REGEX,^https?://[^/]+/splash_ad(/.*)?$
 URL-REGEX,^https?://[^/]+/openscreen(/.*)?$
 URL-REGEX,^https?://[^/]+/open_screen(/.*)?$
