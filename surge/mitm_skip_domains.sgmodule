@@ -1,0 +1,6 @@
+#!name=Jinx MitM Skip Domains
+#!desc=Auto-generated from VME98/jinx-rules
+#!system=ios
+
+[MITM]
+hostname = %APPEND% -*.apple.com, -*.icloud.com, -*.icloud.com.cn, -*.mzstatic.com, -*.itunes.apple.com, -*.google.com, -*.googleapis.com, -*.gstatic.com
