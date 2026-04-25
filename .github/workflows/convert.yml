@@ -2,7 +2,6 @@ name: Convert Jinx Rules to Surge
 
 on:
   schedule:
-    # Check for upstream updates every 6 hours
     - cron: '0 */6 * * *'
   push:
     branches:
@@ -34,7 +33,6 @@ jobs:
           echo "upstream_version=$UPSTREAM_VERSION" >> "$GITHUB_OUTPUT"
           echo "Upstream version: $UPSTREAM_VERSION"
 
-          # Read cached version (if exists)
           if [ -f surge/.upstream_version ]; then
             CACHED=$(cat surge/.upstream_version)
           else
