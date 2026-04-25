@@ -1,3 +1,4 @@
 # Manual remove list — one rule per line.
 # Lines added here will be removed from the corresponding _clean file.
 # This file is never overwritten by the build script.
+DOMAIN-WILDCARD,p*-webcast-sign.douyinpic.com
