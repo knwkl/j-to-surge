@@ -70,7 +70,9 @@ URL-REGEX,^https?://[^/]+/splashscreen/(/.*)?$
 URL-REGEX,^https?://[^/]+/opening_ad/(/.*)?$
 URL-REGEX,^https?://[^/]+/welcome_ad/(/.*)?$
 URL-REGEX,^https?://[^/]+/iflyad/deliverysystem/material/(/.*)?$
+URL-REGEX,^https://a\.qiumibao\.com/ios/[^/]*ad_target(/.*)?$
 URL-REGEX,^https://m\.ctrip\.com/[^/]*/tripAds(/.*)?$
+URL-REGEX,^https://m\.ctrip\.com/[^/]*/ad(/.*)?$
 URL-REGEX,^https://sh\-gateway\.shihuo\.cn/[^/]*/sh\-adapi(/.*)?$
 URL-REGEX,^https://api\.xiaoheihe\.cn/account/ad(/.*)?$
 URL-REGEX,^https://api\.xiaoheihe\.cn/account/get_ads_info_v2(/.*)?$
@@ -227,7 +229,6 @@ URL-REGEX,^https://trade\-acs\.m\.taobao\.com/gw/mtop\.idle\.idleadv\.app\.launc
 URL-REGEX,^https://trade\-acs\.m\.taobao\.com/gw/mtop\.idle\.ad\.expose(/.*)?$
 URL-REGEX,^https://trade\-acs\.m\.taobao\.com/gw/mtop\.taobao\.idle\.activity\.query(/.*)?$
 URL-REGEX,^https://mdap\.mpaas\.cn\-hangzhou\.aliyuncs\.com/loggw/logUpload\.do(/.*)?$
-URL-REGEX,^https://apimobile\.meituan\.com/prom/v2(/.*)?$
 URL-REGEX,^https://p0\.meituan\.net/bizad/(/.*)?$
 URL-REGEX,^https://p1\.meituan\.net/bizad/(/.*)?$
 URL-REGEX,^https://p2\.meituan\.net/bizad/(/.*)?$
@@ -306,7 +307,6 @@ URL-REGEX,^https://api\.mcd\.cn/bff/portal/home/hotActivity(/.*)?$
 URL-REGEX,^https://api\.mcd\.cn/bff/portal/richpop(/.*)?$
 URL-REGEX,^https://api\.mcd\.cn/bff/portal/home/splash(/.*)?$
 URL-REGEX,^https://dynamicad\.kfc\.com\.cn/api(/.*)?$
-URL-REGEX,^https://orders\.kfc\.com\.cn/preorder\-portal/api/v2/coupon(/.*)?$
 URL-REGEX,^https://res\.kfc\.com\.cn/advertisement(/.*)?$
 URL-REGEX,^https://res\.kfc\.com\.cn/CRM/kfcad/custom_v2/wxapp(/.*)?$
 URL-REGEX,^https://m\.ctrip\.com/restapi/soa2/12673/queryWeChatHotEvent(/.*)?$
@@ -607,3 +607,5 @@ URL-REGEX,^https://api\.wfdata\.club/v2/yesfeng/infoCenterAd(/.*)?$
 URL-REGEX,^https://api\.wfdata\.club/v1/yesfeng/infoCenterAd(/.*)?$
 URL-REGEX,^https://apimobile\.meituan\.com/dsp(/.*)?$
 URL-REGEX,^https://course\.myfriday\.cn/Others/Update/V3/startAdSpace\.action(/.*)?$
+URL-REGEX,^https://pan\.baidu\.com/[^/]*/adx(/.*)?$
+URL-REGEX,^https://pan\.baidu\.com/rest/[^/]*ad(/.*)?$
