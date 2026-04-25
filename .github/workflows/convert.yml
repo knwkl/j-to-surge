@@ -9,6 +9,7 @@ on:
     paths:
       - 'convert.py'
       - '.github/workflows/convert.yml'
+      - 'surge/patch/**'
   workflow_dispatch:
 
 jobs:
