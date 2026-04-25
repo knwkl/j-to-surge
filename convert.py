@@ -129,40 +129,23 @@ def make_header(source_file):
 # ---------------------------------------------------------------------------
 
 def extract_domain_value(rule):
-    """'DOMAIN,foo.com' -> 'foo.com'"""
     if ',' in rule:
         return rule.split(',', 1)[1]
     return rule
 
 
 def wildcard_to_regex(pattern):
-    """
-    Convert a DOMAIN-WILDCARD pattern to a compiled regex that matches
-    full domain strings.
-    e.g. '*.tanx.com' -> regex matching 'wagbridge.alsc-prd.tanx.com'
-    """
     parts = pattern.split('*')
     escaped = '.*'.join(re.escape(p) for p in parts)
     return re.compile('^' + escaped + '$', re.IGNORECASE)
 
 
 def domain_is_covered_by_wildcard(domain, wildcard_pattern):
-    """
-    Return True if `domain` is fully covered by `wildcard_pattern`.
-    e.g. domain='wagbridge.alsc-prd.tanx.com', wildcard='*.tanx.com' -> True
-    """
     rx = wildcard_to_regex(wildcard_pattern)
     return bool(rx.match(domain))
 
 
 def deduplicate_domain_rules(black_rules, white_rules):
-    """
-    Remove from black_rules any entry that:
-      1. Is exactly present in white_rules, OR
-      2. Its domain value is covered by a DOMAIN-WILDCARD in white_rules, OR
-      3. Its DOMAIN-WILDCARD pattern covers a domain in white_rules
-         (black wildcard would swallow a white entry).
-    """
     white_domains = set()
     white_wildcards = []
 
@@ -175,27 +158,22 @@ def deduplicate_domain_rules(black_rules, white_rules):
 
     clean = []
     for r in black_rules:
-        # Exact duplicate
         if r in white_rules:
             continue
 
         val = extract_domain_value(r)
 
         if r.startswith('DOMAIN-WILDCARD,'):
-            # Black wildcard swallows a white domain?
             swallows_white = any(
                 domain_is_covered_by_wildcard(wd, val) for wd in white_domains
             )
-            # Black wildcard exactly matches a white wildcard?
             exact_white_wildcard = val in white_wildcards
             if swallows_white or exact_white_wildcard:
                 continue
         else:
-            # Black domain covered by a white wildcard?
             covered = any(
                 domain_is_covered_by_wildcard(val, ww) for ww in white_wildcards
             )
-            # Black domain exact match in white domains?
             exact = val in white_domains
             if covered or exact:
                 continue
@@ -206,15 +184,36 @@ def deduplicate_domain_rules(black_rules, white_rules):
 
 
 def deduplicate_url_rules(black_rules, white_rules):
-    """
-    Remove from black_rules any entry that is an exact string match
-    with a white_rules entry.
-    """
     white_set = set(white_rules)
     return [r for r in black_rules if r not in white_set]
 
 
 # ---------------------------------------------------------------------------
+# Manual override helpers
+# ---------------------------------------------------------------------------
+
+OVERRIDE_DIR = 'patch'
+
+OVERRIDE_TEMPLATE_HEADER = (
+    '# Manual remove list — one rule per line.\n'
+    '# Lines added here will be removed from the corresponding _clean file.\n'
+    '# This file is never overwritten by the build script.\n'
+)
+
+DEDUP_PAIRS = [
+    # (black_dst, white_dst, kind, clean_black_dst, override_file)
+    ('blacklist.list',          'whitelist.list',
+     'domain',
+     'blacklist_clean.list',         'blacklist_patch.list'),
+
+    ('blacklist_wildcard.list', 'whitelist_wildcard.list',
+     'domain',
+     'blacklist_wildcard_clean.list', 'blacklist_wildcard_patch.list'),
+
+    ('url_blacklist.list',      'url_whitelist.list',
+     'url',
+     'url_blacklist_clean.list',      'url_blacklist_patch.list'),
+]
 
 TASKS = [
     ('blacklist.txt',          'blacklist.list',             'domain'),
@@ -226,30 +225,39 @@ TASKS = [
     ('mitm_skip_domains.txt',  'mitm_skip_domains.sgmodule', 'mitm'),
 ]
 
-DEDUP_PAIRS = [
-    # (black_dst, white_dst, kind, clean_black_dst)
-    ('blacklist.list',          'whitelist.list',
-     'domain',
-     'blacklist_clean.list'),
-
-    ('blacklist_wildcard.list', 'whitelist_wildcard.list',
-     'domain',
-     'blacklist_wildcard_clean.list'),
-
-    ('url_blacklist.list',      'url_whitelist.list',
-     'url',
-     'url_blacklist_clean.list'),
-]
-
 
 def read_rules(path):
-    """Read non-comment, non-empty lines from a .list file."""
     lines = path.read_text(encoding='utf-8').splitlines()
     return [l for l in lines if l.strip() and not l.strip().startswith('#')]
 
 
+def ensure_override_template(path):
+    """Create an empty patch file with header comment if it doesn't exist."""
+    if not path.exists():
+        path.write_text(OVERRIDE_TEMPLATE_HEADER, encoding='utf-8')
+        print(f'CREATED template: {path}')
+
+
+def apply_override(clean_rules, override_path):
+    """Remove from clean_rules any entry listed in override_path."""
+    if not override_path.exists():
+        return clean_rules
+    remove_set = set(read_rules(override_path))
+    if not remove_set:
+        return clean_rules
+    filtered = [r for r in clean_rules if r not in remove_set]
+    removed = len(clean_rules) - len(filtered)
+    if removed:
+        print(f'PATCH: removed {removed} rules via {override_path.name}')
+    return filtered
+
+
+# ---------------------------------------------------------------------------
+
 def run(src_dir, out_dir):
     out_dir.mkdir(parents=True, exist_ok=True)
+    override_dir = out_dir / OVERRIDE_DIR
+    override_dir.mkdir(parents=True, exist_ok=True)
 
     # Step 1: convert all source files
     for src_name, dst_name, kind in TASKS:
@@ -275,8 +283,8 @@ def run(src_dir, out_dir):
         (out_dir / dst_name).write_text(content, encoding='utf-8')
         print(f'OK: {src_name} -> {dst_name}')
 
-    # Step 2: generate deduplicated black lists
-    for black_dst, white_dst, kind, clean_black in DEDUP_PAIRS:
+    # Step 2: generate deduplicated black lists, then apply manual patches
+    for black_dst, white_dst, kind, clean_black, override_file in DEDUP_PAIRS:
         bp = out_dir / black_dst
         wp = out_dir / white_dst
         if not bp.exists() or not wp.exists():
@@ -291,17 +299,23 @@ def run(src_dir, out_dir):
         else:
             clean_black_rules = deduplicate_domain_rules(black_rules, white_rules)
 
+        removed = len(black_rules) - len(clean_black_rules)
+        print(f'DEDUP: {black_dst} -> {clean_black} ({removed} rules removed)')
+
+        # Ensure patch template exists (never overwrite if already present)
+        override_path = override_dir / override_file
+        ensure_override_template(override_path)
+
+        # Apply manual patch
+        clean_black_rules = apply_override(clean_black_rules, override_path)
+
         header_b = (
             f'# Deduplicated: {black_dst} (whitelist entries removed)\n'
             '# Do not edit manually.\n'
         )
-
         (out_dir / clean_black).write_text(
             header_b + '\n'.join(clean_black_rules) + '\n', encoding='utf-8'
         )
-
-        removed = len(black_rules) - len(clean_black_rules)
-        print(f'DEDUP: {black_dst} -> {clean_black} ({removed} rules removed)')
 
     print('Done.')
 
