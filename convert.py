@@ -80,23 +80,31 @@ def convert_url_rules(lines):
         if is_comment_or_empty(line):
             continue
 
+        # Host fragment like .ads. or .ad.
         if re.match(r'^\.[a-zA-Z0-9_-]+\.$', line):
             seg = re.escape(line)
             out.append(f'URL-REGEX,^https?://[^/]*{seg}[^/]*/')
             continue
 
+        # Full URL or path starting with /
         if is_full_url(line) or line.startswith('/'):
             pattern = escape_url_to_regex(line)
             out.append(f'URL-REGEX,{pattern}')
             continue
 
+        # Path suffix fragment like .splash — matches URLs where path contains .splash
+        if re.match(r'^\.[a-zA-Z0-9_-]+$', line):
+            seg = re.escape(line)
+            out.append(f'URL-REGEX,^https?://[^/]+/.*{seg}(/.*)?$')
+            continue
+
+        # gRPC-style: no leading slash but contains /
         if '/' in line:
             pattern = escape_url_to_regex('/' + line)
             out.append(f'URL-REGEX,{pattern}')
             continue
 
     return out
-
 
 def convert_mitm_skip(lines):
     domains = []
@@ -118,11 +126,7 @@ def convert_mitm_skip(lines):
 
 
 def make_header(source_file):
-    return (
-        f'# Auto-generated from VME98/jinx-rules/{source_file}\n'
-        '# Do not edit manually.\n'
-    )
-
+    return ''
 
 # ---------------------------------------------------------------------------
 # Dedup helpers
@@ -309,10 +313,7 @@ def run(src_dir, out_dir):
         # Apply manual patch
         clean_black_rules = apply_override(clean_black_rules, override_path)
 
-        header_b = (
-            f'# Deduplicated: {black_dst} (whitelist entries removed)\n'
-            '# Do not edit manually.\n'
-        )
+        header_b = ''
         (out_dir / clean_black).write_text(
             header_b + '\n'.join(clean_black_rules) + '\n', encoding='utf-8'
         )
