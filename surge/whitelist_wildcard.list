@@ -1,5 +1,3 @@
-# Auto-generated from VME98/jinx-rules/whitelist_wildcard.txt
-# Do not edit manually.
 DOMAIN-WILDCARD,*.mediation.unity3d.com
 DOMAIN-WILDCARD,*.7moor.com
 DOMAIN-WILDCARD,*.tpns.tencent.com

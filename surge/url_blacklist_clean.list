@@ -1,10 +1,9 @@
-# Deduplicated: url_blacklist.list (whitelist entries removed)
-# Do not edit manually.
 URL-REGEX,^https?://[^/]+/ssaxcode(/.*)?$
 URL-REGEX,^https?://[^/]+/obj/static/ad(/.*)?$
 URL-REGEX,^https?://[^/]+/mtop\.idle\.idleadv\.scene\.restore(/.*)?$
 URL-REGEX,^https?://[^/]+/app_ads(/.*)?$
 URL-REGEX,^https?://[^/]+/splash(/.*)?$
+URL-REGEX,^https?://[^/]+/.*\.splash(/.*)?$
 URL-REGEX,^https?://[^/]*\.ads\.[^/]*/
 URL-REGEX,^https?://[^/]*\.ad\.[^/]*/
 URL-REGEX,^https?://[^/]+/splash_ad(/.*)?$

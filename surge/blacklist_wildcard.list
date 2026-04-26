@@ -1,5 +1,3 @@
-# Auto-generated from VME98/jinx-rules/blacklist_wildcard.txt
-# Do not edit manually.
 DOMAIN-WILDCARD,*.cupid.iqiyi.com
 DOMAIN-WILDCARD,*.cupid.ptqy.gitv.tv
 DOMAIN-WILDCARD,p*-ad-aweme.byteimg.com
