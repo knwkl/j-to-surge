@@ -397,8 +397,6 @@ URL-REGEX,^https://appapi\.huazhu\.com/client/app/getAppStartPage(/.*)?$
 URL-REGEX,^https://app\.homeinns\.com/api/v5/local(/.*)?$
 URL-REGEX,^https://app\.homeinns\.com/api/v6/indexs(/.*)?$
 URL-REGEX,^https://app\.homeinns\.com/api/landing(/.*)?$
-URL-REGEX,^https://capi\.lkcoffee\.com/resource/m/sys/homePage/contactor/modules(/.*)?$
-URL-REGEX,^https://capi\.lkcoffee\.com/resource/m/sys/app/adposNew(/.*)?$
 URL-REGEX,^https://hfapp\-service\.qweather\.net/ad(/.*)?$
 URL-REGEX,^https://cdn\.moji\.com/advert(/.*)?$
 URL-REGEX,^https://api\.xueqiu\.com/brand/search/v1\.json(/.*)?$
@@ -552,7 +550,6 @@ URL-REGEX,^https://dsp\.fcbox\.com(/.*)?$
 URL-REGEX,^https://webchatapp\.fcbox\.com/fcboxactivityweb/api/v2/clientPage(/.*)?$
 URL-REGEX,^https://supplier\-api\.imdada\.cn/fe/public/ad/spot\?forwardServiceName=growth\-activity(/.*)?$
 URL-REGEX,^https://suyun\-guest\.daojia\.com/api/kuaigou/banjia/review(/.*)?$
-URL-REGEX,^https://webapi\.qmai\.cn/web/catering/advertising/ad(/.*)?$
 URL-REGEX,^https://appconf\.mail\.163\.com/mmad(/.*)?$
 URL-REGEX,^https://client\.mail\.163\.com/apptrack/confinfo/searchMultiAds(/.*)?$
 URL-REGEX,^https://ad\.lofter\.com(/.*)?$
