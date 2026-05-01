@@ -34,8 +34,6 @@ DOMAIN-WILDCARD,*-ad.searchpstatp.com
 DOMAIN-WILDCARD,*.adbiding.com
 DOMAIN-WILDCARD,*.adbiding.cn
 DOMAIN-WILDCARD,*.adparticle.com
-DOMAIN-WILDCARD,ad-*.com
-DOMAIN-WILDCARD,ad-*.net
 DOMAIN-WILDCARD,*-ad.wtzw.com
 DOMAIN-WILDCARD,*.guangtuikeji.com
 DOMAIN-WILDCARD,*.appsflyersdk.com

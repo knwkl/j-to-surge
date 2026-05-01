@@ -3,4 +3,4 @@
 #!system=ios
 
 [MITM]
-hostname = %APPEND% -*.apple.com, -*.icloud.com, -*.icloud.com.cn, -*.mzstatic.com, -*.itunes.apple.com, -*.google.com, -*.googleapis.com, -*.gstatic.com
+hostname = %APPEND% -*.apple.com, -*.icloud.com, -*.icloud.com.cn, -*.mzstatic.com, -*.itunes.apple.com, -*.google.com, -*.googleapis.com, -*.gstatic.com, -cloudauth-device-dualstack.cn-shanghai.aliyuncs.com, -*.captcha-open.aliyuncs.com, -*.captcha-open-b.aliyuncs.com, -peisongapi.meituan.com
