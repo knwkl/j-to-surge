@@ -99,9 +99,14 @@ URL-REGEX,^https://app\.bilibili\.com/bilibili\.app\.coldstart\.v1\.ColdStart/Ge
 URL-REGEX,^https://api\.bilibili\.com/bilibili\.app\.coldstart\.v1\.ColdStart/GetColdStartDeferredData(/.*)?$
 URL-REGEX,^https://upos\-sz\-static\.bilivideo\.com/ssaxcode(/.*)?$
 URL-REGEX,^https://upos\-sz\-mirrorcos\.bilivideo\.com/ssaxcode(/.*)?$
+URL-REGEX,^https://upos\-sz\-staticcos\.bilivideo\.com/ssaxcode(/.*)?$
+URL-REGEX,^https://upos\-[^/]*\.bilivideo\.com/ssaxcode(/.*)?$
 URL-REGEX,^https://app\.bilibili\.com/x/v2/splash(/.*)?$
 URL-REGEX,^https://grpc\.biliapi\.net/bilibili\.app\.wall\.v1\.Wall/RuleInfo(/.*)?$
+URL-REGEX,^https://mall\.bilibili\.com/mall\-c\-search/app/config/all(/.*)?$
 URL-REGEX,^https://api\.bilibili\.com/x/vas_ads_open(/.*)?$
+URL-REGEX,^https://app\.bilibili\.com/x/resource/patch/tab/v2(/.*)?$
+URL-REGEX,^https://app\.bilibili\.com/x/resource/show/tab/v2(/.*)?$
 URL-REGEX,^https://api\.live\.bilibili\.com/xlive/web\-ucenter/v1/banned/GetShieldKeywordList(/.*)?$
 URL-REGEX,^https://acs\.m\.goofish\.com/gw/mtop\.taobao\.baichuan\.afc\.linkinforapidly(/.*)?$
 URL-REGEX,^https://acs\.m\.goofish\.com/gw/mtop\.idle\.idleadv\.app\.launch\.report(/.*)?$
@@ -296,6 +301,8 @@ URL-REGEX,^https://gateway\.kugou\.com/pxy/v1/combo/startup(/.*)?$
 URL-REGEX,^https://gateway\.kugou\.com/youth/v1/ad/(/.*)?$
 URL-REGEX,^https://gateway3\.kugou\.com/ads\.gateway(/.*)?$
 URL-REGEX,^https://[^/]*\.kugou\.com/ads\.gateway(/.*)?$
+URL-REGEX,^https://gatewayretry\.kugou\.com/adp(/.*)?$
+URL-REGEX,^https://gatewayretry\.kugou\.com/vipenergy/v1/free_time_ad(/.*)?$
 URL-REGEX,^https://3pp\.starbucks\.com\.cn/wxmem/index/banner(/.*)?$
 URL-REGEX,^https://3pp\.starbucks\.com\.cn/wxmem/popup(/.*)?$
 URL-REGEX,^https://ad\.maoyan\.com/api/position/detail(/.*)?$
@@ -412,8 +419,6 @@ URL-REGEX,^https://promo\.xueqiu\.com/promotion/search_ad(/.*)?$
 URL-REGEX,^https://promo\.xueqiu\.com/promotion/splash(/.*)?$
 URL-REGEX,^https://fmapp\.chinafamilymart\.com\.cn/api/app/market/start/ad(/.*)?$
 URL-REGEX,^https://101\.xueqiu\.com(/.*)?$
-URL-REGEX,^https://api\.m\.jd\.com/client\.action\?functionId=home_launchConfig(/.*)?$
-URL-REGEX,^https://api\.m\.jd\.com/client\.action\?functionId=start(/.*)?$
 URL-REGEX,^https://lop\-proxy\.jd\.com/queryAppHomePageMarketingRecommendRuleConfigInfo(/.*)?$
 URL-REGEX,^https://jdread\-api\.jd\.com/jdread/api/channel/module/opens(/.*)?$
 URL-REGEX,^https://jdread\-api\.jd\.com/jdread/api/popup(/.*)?$
@@ -427,9 +432,6 @@ URL-REGEX,^https://mapi\.appvipshop\.com/vips\-mobile/rest/iosAdInfo/report(/.*)
 URL-REGEX,^https://api\.dangdang\.com/mapi2/mobile/init(/.*)?$
 URL-REGEX,^https://mapi\.dangdang\.com/index\.php\?action=init(/.*)?$
 URL-REGEX,^https://e\.dangdang\.com/media/api(/.*)?$
-URL-REGEX,^https://app\.api\.ke\.com/config/config/bootpage(/.*)?$
-URL-REGEX,^https://apps\.api\.ke\.com/config/config/bootpage(/.*)?$
-URL-REGEX,^https://apps\.api\.ke\.com/config/config/getactivityconfig(/.*)?$
 URL-REGEX,^https://app\.58\.com/api/home/advertising(/.*)?$
 URL-REGEX,^https://app\.58\.com/api/home/appadv(/.*)?$
 URL-REGEX,^https://app\.58\.com/api/home/invite/popupAdv(/.*)?$

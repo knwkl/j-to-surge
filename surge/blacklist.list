@@ -211,8 +211,6 @@ DOMAIN,api.yfanads.com
 DOMAIN,api5-normal-quic-lf.ixigua.com
 DOMAIN,apiyd.my91app.com
 DOMAIN,app-measurement.com
-DOMAIN,appgoadhd.189.cn
-DOMAIN,appgoadsz.189.cn
 DOMAIN,appcfg.v.qq.com
 DOMAIN,applog.lc.quark.cn
 DOMAIN,applog.uc.cn
@@ -554,7 +552,6 @@ DOMAIN,mobilelog.upqzfile.com
 DOMAIN,monitor-ads-test.huan.tv
 DOMAIN,monitor-uu.play.aiseet.atianqi.com
 DOMAIN,monitor.adxsenmeng.com
-DOMAIN,monitor.music.qq.com
 DOMAIN,monitor.uu.qq.com
 DOMAIN,monsetting.toutiao.com
 DOMAIN,ms.applovin.com
@@ -1596,6 +1593,10 @@ DOMAIN,adbehaviorhera.ximalaya.com
 DOMAIN,video-ads.twitter.com
 DOMAIN,pagead2.googlevideo.com
 DOMAIN,adx.ys7.com
+DOMAIN,ads.api.vungle.com
+DOMAIN,finderdsp.video.qq.com
+DOMAIN,admark-x.xunlei.com
+DOMAIN,gslbali.ximalaya.com
 DOMAIN,24h-ad.24hstatic.com
 DOMAIN,24h-ipad-ad.24hstatic.com
 DOMAIN,ad-us.24hstatic.com
