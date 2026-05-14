@@ -220,7 +220,6 @@ DOMAIN,auction.unityads.unity3d.com
 DOMAIN,audid-api.taobao.com
 DOMAIN,audid.umeng.com
 DOMAIN,b1-data.ads.heytapmobi.com
-DOMAIN,badjs.weixinbridge.com
 DOMAIN,baichuan-sdk.alicdn.com
 DOMAIN,baichuan-sdk.taobao.com
 DOMAIN,bdad.123pan.cn
@@ -897,7 +896,6 @@ DOMAIN,ins-u5twfbbu.ias.tencent-cloud.net
 DOMAIN,xindai.duxiaoman.com
 DOMAIN,ad.bdstatic.com
 DOMAIN,service.qttunion.com
-DOMAIN,acs.m.taobao.com
 DOMAIN,acs.m.cainiao.com
 DOMAIN,guide-acs.m.cainiao.com
 DOMAIN,g-acs.m.cainiao.com
@@ -935,7 +933,6 @@ DOMAIN,hydl.huya.com
 DOMAIN,push.douban.com
 DOMAIN,mum.hzchengdun.net
 DOMAIN,ins-5776sx9h.ias.tencent-cloud.net
-DOMAIN,cactus.jd.com
 DOMAIN,m.ad.jd.com
 DOMAIN,ad.jd.com
 DOMAIN,ad.jdfcloud.com
@@ -976,8 +973,8 @@ DOMAIN,qh-material.taobao.com
 DOMAIN,awp-assets.meituan.net
 DOMAIN,wpt-giant.vip.meituan.com
 DOMAIN,cube.meituan.com
+DOMAIN,prom-sdkv2.jysper.net
 DOMAIN,marketing-thh.meituan.com
-DOMAIN,promotion.waimai.meituan.com
 DOMAIN,analytics.meituan.net
 DOMAIN,report.meituan.com
 DOMAIN,logan.sankuai.com
@@ -1079,7 +1076,6 @@ DOMAIN,api5-normal-lq.doubao.com
 DOMAIN,blackhole.m.jd.com.gslb.qianxun.com
 DOMAIN,click.union.jd.com
 DOMAIN,d.image.i4.cn.cdn20.com.chnc.cloudcsp.com
-DOMAIN,discover.300hu.com
 DOMAIN,e.ximalaya.com
 DOMAIN,e6858.e19.s.tl88.net
 DOMAIN,et.tanx.com
@@ -1124,7 +1120,6 @@ DOMAIN,tracking.ximalaya.com
 DOMAIN,union.jd.com
 DOMAIN,video-ad.jd.com
 DOMAIN,vip.jiasule.org
-DOMAIN,vod.300hu.com
 DOMAIN,volcsirius.com
 DOMAIN,waapdg.jd.com.gslb.qianxun.com
 DOMAIN,webboot.zhangyue.com
@@ -1173,6 +1168,7 @@ DOMAIN,broker.tips2.gz.tencent.com
 DOMAIN,adtrack.qianwen.com
 DOMAIN,dsp.ads.umeng.com
 DOMAIN,media-show.wanzi.com
+DOMAIN,gaoneng.bilibili.com
 DOMAIN,goblin.hupu.com
 DOMAIN,csj-sp.csjdeveloper.com
 DOMAIN,dspadlogger.waimai.meituan.com
@@ -1219,7 +1215,6 @@ DOMAIN,dns.weixin.qq.com
 DOMAIN,httpdns-api.aliyuncs.com
 DOMAIN,httpdns-sc.aliyuncs.com
 DOMAIN,httpdns.alicdn.com
-DOMAIN,httpdns.baidu.com
 DOMAIN,httpdns.baidubce.com
 DOMAIN,httpdns.c.cdnhwc2.com
 DOMAIN,httpdns.calorietech.com
@@ -1563,6 +1558,9 @@ DOMAIN,ads.api.vungle.com
 DOMAIN,finderdsp.video.qq.com
 DOMAIN,admark-x.xunlei.com
 DOMAIN,gslbali.ximalaya.com
+DOMAIN,duer-ad.cdn.bcebos.com
+DOMAIN,ssp.soulapp.cn
+DOMAIN,api.kuaishouzt.com
 DOMAIN,24h-ad.24hstatic.com
 DOMAIN,24h-ipad-ad.24hstatic.com
 DOMAIN,ad-us.24hstatic.com
@@ -3360,6 +3358,7 @@ DOMAIN,yesads.com
 DOMAIN,yesadvertising.com
 DOMAIN,yoc-adserver.com
 DOMAIN,youradexchange.com
+DOMAIN,dig.bdurl.net
 DOMAIN,abtest.volceapplog.com
 DOMAIN,shark-tracer.netease.com
 DOMAIN,ytadsdk.radio.cn

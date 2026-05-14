@@ -1,3 +1,12 @@
+DOMAIN-WILDCARD,*.gcloudcs.com
+DOMAIN-WILDCARD,*.gcloud.qq.com
+DOMAIN-WILDCARD,*.gsdk.qq.com
+DOMAIN-WILDCARD,*.anticheatexpert.com
+DOMAIN-WILDCARD,*.tgpa.qq.com
+DOMAIN-WILDCARD,*.tdm.qq.com
+DOMAIN-WILDCARD,*.wepop.qq.com
+DOMAIN-WILDCARD,*.tplay.qq.com
+DOMAIN-WILDCARD,*.voice.gcloudcs.com
 DOMAIN-WILDCARD,*.openspeech.cn
 DOMAIN-WILDCARD,*.mediation.unity3d.com
 DOMAIN-WILDCARD,*.7moor.com

@@ -89,8 +89,18 @@ URL-REGEX,^https://api\-hl\.amemv\.com/aweme/v1/ad/(/.*)?$
 URL-REGEX,^https://api\-hl\.amemv\.com/aweme/v1/splash/(/.*)?$
 URL-REGEX,^https://tr\.byteurl\.cn/ad(/.*)?$
 URL-REGEX,^https://tr\.byteurl\.cn/ug/ad(/.*)?$
+URL-REGEX,^https://api5\-lq\.qishui\.com/luna/ads/config(/.*)?$
+URL-REGEX,^https://api5\-lq\.qishui\.com/luna/advert(/.*)?$
+URL-REGEX,^https://api5\-lq\.qishui\.com/luna/launch(/.*)?$
+URL-REGEX,^https://api5\-hl\.qishui\.com/luna/ads/config(/.*)?$
+URL-REGEX,^https://api5\-hl\.qishui\.com/luna/advert(/.*)?$
+URL-REGEX,^https://api5\-hl\.qishui\.com/luna/launch(/.*)?$
+URL-REGEX,^https://api3\-hl\.qishui\.com/luna/ads/config(/.*)?$
+URL-REGEX,^https://api3\-hl\.qishui\.com/luna/advert(/.*)?$
+URL-REGEX,^https://api3\-hl\.qishui\.com/luna/launch(/.*)?$
 URL-REGEX,^https://api\.bilibili\.com/open(/.*)?$
 URL-REGEX,^https://api\.bilibili\.com/x/v2/dm/exposure(/.*)?$
+URL-REGEX,^https://gaoneng\.bilibili\.com/tetris/page/[^/]*adtype=CPM[^/]*
 URL-REGEX,^https://api\.bilibili\.com/x/internal/gaia\-gateway/ExClimbCongLing(/.*)?$
 URL-REGEX,^https://api\.bilibili\.com/x/push/popup(/.*)?$
 URL-REGEX,^https://im\-x\.jd\.com/dsp/(/.*)?$
@@ -100,6 +110,7 @@ URL-REGEX,^https://api\.bilibili\.com/bilibili\.app\.coldstart\.v1\.ColdStart/Ge
 URL-REGEX,^https://upos\-sz\-static\.bilivideo\.com/ssaxcode(/.*)?$
 URL-REGEX,^https://upos\-sz\-mirrorcos\.bilivideo\.com/ssaxcode(/.*)?$
 URL-REGEX,^https://upos\-sz\-staticcos\.bilivideo\.com/ssaxcode(/.*)?$
+URL-REGEX,^https://upos\-sz\-302ppio\.bilivideo\.com/ssaxcode(/.*)?$
 URL-REGEX,^https://upos\-[^/]*\.bilivideo\.com/ssaxcode(/.*)?$
 URL-REGEX,^https://app\.bilibili\.com/x/v2/splash(/.*)?$
 URL-REGEX,^https://grpc\.biliapi\.net/bilibili\.app\.wall\.v1\.Wall/RuleInfo(/.*)?$
@@ -260,6 +271,7 @@ URL-REGEX,^https://bootpreload\.uve\.weibo\.com/v1/ad/preload(/.*)?$
 URL-REGEX,^https://api\.weibo\.cn/2/sdk/union_config(/.*)?$
 URL-REGEX,^https://vs\.biz\.weibo\.com/sdkserver/brand_monitor(/.*)?$
 URL-REGEX,^https://wbapp\.uve\.weibo\.com/wbapplua/wbpullad\.lua(/.*)?$
+URL-REGEX,^https://api\.weibo\.cn/2/client/get_grayfeature(/.*)?$
 URL-REGEX,^https://netflow\-mtop\.cainiao\.com/gw/mtop\.cainiao\.guoguo\.nbnetflow\.ads\.show(/.*)?$
 URL-REGEX,^https://netflow\-reply\-mtop\.cainiao\.com/gw/mtop\.cainiao\.guoguo\.ads\.click\.reply\.cn(/.*)?$
 URL-REGEX,^https://netflow\-reply\-mtop\.cainiao\.com/gw/mtop\.cainiao\.guoguo\.ads\.click\.reply(/.*)?$
@@ -290,11 +302,12 @@ URL-REGEX,^https://contentcenter\-drcn\.dbankcdn\.cn/img/pub_17/pps_realtimeimag
 URL-REGEX,^https://acs\.m\.goofish\.com/gw/mtop\.idle\.idleadv\.scene\.restore(/.*)?$
 URL-REGEX,^https://vas\-lf\-x\.snssdk\.com/video/fplay(/.*)?$
 URL-REGEX,^https://lf\-cdn\-tos\.bytescm\.com/obj/static/ad(/.*)?$
-URL-REGEX,^https://[^/]*\.bytegecko\.com/obj/byte\-gurd\-source\-gr/ad(/.*)?$
 URL-REGEX,^https://client\.app\.coc\.10086\.cn/biz\-orange/DN/homepagePopup/getSortInfo(/.*)?$
 URL-REGEX,^https://api\.17gwx\.com/v2/base/app/ad(/.*)?$
 URL-REGEX,^https://api\.17gwx\.com/v2/app/spotlightv2(/.*)?$
 URL-REGEX,^https://thor\.weidian\.com/ares/home\.splash(/.*)?$
+URL-REGEX,^https://bjacshow\.kugou\.com/mfx\-appconf/cdn/start(/.*)?$
+URL-REGEX,^https://welfare\.kugou\.com/popup(/.*)?$
 URL-REGEX,^https://gateway\.kugou\.com/ads\.gateway(/.*)?$
 URL-REGEX,^https://gateway\.kugou\.com/ads\.service(/.*)?$
 URL-REGEX,^https://gateway\.kugou\.com/pxy/v1/combo/startup(/.*)?$
@@ -347,6 +360,8 @@ URL-REGEX,^https://amap\-aos\-info\-nogw\.amap\.com/ws/aos/alimama(/.*)?$
 URL-REGEX,^https://m5\.amap\.com/ws/valueadded(/.*)?$
 URL-REGEX,^https://sns\.amap\.com/ws/msgbox/pull(/.*)?$
 URL-REGEX,^https://render\-oss\-cdn\.amap\.com/render/studio\-dev/image(/.*)?$
+URL-REGEX,^https://m5\.amap\.com/ws/shield/dsp/app/startup(/.*)?$
+URL-REGEX,^https://m5\.amap\.com/ws/promote/main\-page/assets(/.*)?$
 URL-REGEX,^https://newclient\.map\.baidu\.com/client/crossmarketing(/.*)?$
 URL-REGEX,^https://newclient\.map\.baidu\.com/client/usersystem/home/dynamic(/.*)?$
 URL-REGEX,^https://newclient\.map\.baidu\.com/client/phpui2/\?qt=ads(/.*)?$
