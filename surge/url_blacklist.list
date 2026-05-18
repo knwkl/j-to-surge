@@ -98,6 +98,7 @@ URL-REGEX,^https://api5\-hl\.qishui\.com/luna/launch(/.*)?$
 URL-REGEX,^https://api3\-hl\.qishui\.com/luna/ads/config(/.*)?$
 URL-REGEX,^https://api3\-hl\.qishui\.com/luna/advert(/.*)?$
 URL-REGEX,^https://api3\-hl\.qishui\.com/luna/launch(/.*)?$
+URL-REGEX,^https://app\.bilibili\.com/x/v2/feed/coldstart(/.*)?$
 URL-REGEX,^https://api\.bilibili\.com/open(/.*)?$
 URL-REGEX,^https://api\.bilibili\.com/x/v2/dm/exposure(/.*)?$
 URL-REGEX,^https://gaoneng\.bilibili\.com/tetris/page/[^/]*adtype=CPM[^/]*
@@ -109,9 +110,11 @@ URL-REGEX,^https://app\.bilibili\.com/bilibili\.app\.coldstart\.v1\.ColdStart/Ge
 URL-REGEX,^https://api\.bilibili\.com/bilibili\.app\.coldstart\.v1\.ColdStart/GetColdStartDeferredData(/.*)?$
 URL-REGEX,^https://upos\-sz\-static\.bilivideo\.com/ssaxcode(/.*)?$
 URL-REGEX,^https://upos\-sz\-mirrorcos\.bilivideo\.com/ssaxcode(/.*)?$
+URL-REGEX,^http://upos\-sz\-mirrorcos\.bilivideo\.com/ssaxcode(/.*)?$
 URL-REGEX,^https://upos\-sz\-staticcos\.bilivideo\.com/ssaxcode(/.*)?$
 URL-REGEX,^https://upos\-sz\-302ppio\.bilivideo\.com/ssaxcode(/.*)?$
 URL-REGEX,^https://upos\-[^/]*\.bilivideo\.com/ssaxcode(/.*)?$
+URL-REGEX,^https://upos\-sz\-staticcos\.bilivideo\.com/appstaticboss(/.*)?$
 URL-REGEX,^https://app\.bilibili\.com/x/v2/splash(/.*)?$
 URL-REGEX,^https://grpc\.biliapi\.net/bilibili\.app\.wall\.v1\.Wall/RuleInfo(/.*)?$
 URL-REGEX,^https://mall\.bilibili\.com/mall\-c\-search/app/config/all(/.*)?$
@@ -264,6 +267,7 @@ URL-REGEX,^https://api\.zhihu\.com/ad\-style\-service(/.*)?$
 URL-REGEX,^https://sugar\.zhihu\.com/ad\-track(/.*)?$
 URL-REGEX,^https://sugar\.zhihu\.com/glory_adreaper(/.*)?$
 URL-REGEX,^https://appcloud2\.in\.zhihu\.com/api/env/check(/.*)?$
+URL-REGEX,^https://pic1\.zhimg\.com/[^/]*_1440w\.webp(/.*)?$
 URL-REGEX,^https://api\.weibo\.cn/2/client/launch(/.*)?$
 URL-REGEX,^https://api\.weibo\.cn/[^/]*/ad(/.*)?$
 URL-REGEX,^https://1249900002\-0\.m\.ctrmi\.cn/t/ad2(/.*)?$
@@ -302,7 +306,6 @@ URL-REGEX,^https://contentcenter\-drcn\.dbankcdn\.cn/img/pub_17/pps_realtimeimag
 URL-REGEX,^https://acs\.m\.goofish\.com/gw/mtop\.idle\.idleadv\.scene\.restore(/.*)?$
 URL-REGEX,^https://vas\-lf\-x\.snssdk\.com/video/fplay(/.*)?$
 URL-REGEX,^https://lf\-cdn\-tos\.bytescm\.com/obj/static/ad(/.*)?$
-URL-REGEX,^https://client\.app\.coc\.10086\.cn/biz\-orange/DN/homepagePopup/getSortInfo(/.*)?$
 URL-REGEX,^https://api\.17gwx\.com/v2/base/app/ad(/.*)?$
 URL-REGEX,^https://api\.17gwx\.com/v2/app/spotlightv2(/.*)?$
 URL-REGEX,^https://thor\.weidian\.com/ares/home\.splash(/.*)?$
@@ -535,7 +538,6 @@ URL-REGEX,^https://creditcardapp\.bankcomm\.com/mapp/common/getPopAds\.do(/.*)?$
 URL-REGEX,^https://creditcardapp\.bankcomm\.com/mapp/common/queryGuidePageAds\.do(/.*)?$
 URL-REGEX,^https://v\.icbc\.com\.cn/userfiles/Resources/WAP/advertisement(/.*)?$
 URL-REGEX,^https://m\.client\.10010\.com/getDataFromService\?[^/]*\&methodType=topAdGet(/.*)?$
-URL-REGEX,^https://m\.client\.10010\.com/mobileService/activity/homePopUpActivityNew\.htm(/.*)?$
 URL-REGEX,^https://m\.client\.10010\.com/mobileService/customer/get_client_adv(/.*)?$
 URL-REGEX,^https://m\.client\.10010\.com/mobileService/customer/get_startadv(/.*)?$
 URL-REGEX,^https://m\.client\.10010\.com/getDataFromService\?methodType=topAdGet(/.*)?$
