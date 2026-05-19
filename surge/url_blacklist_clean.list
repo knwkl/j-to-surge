@@ -69,6 +69,7 @@ URL-REGEX,^https?://[^/]+/splashscreen/(/.*)?$
 URL-REGEX,^https?://[^/]+/opening_ad/(/.*)?$
 URL-REGEX,^https?://[^/]+/welcome_ad/(/.*)?$
 URL-REGEX,^https?://[^/]+/iflyad/deliverysystem/material/(/.*)?$
+URL-REGEX,^https://qwhdcdn\.cmcc\-cs\.cn/prd\-mgcenter(/.*)?$
 URL-REGEX,^https://api\-one\-wscn\.awtmt\.com/apiv1/advertising(/.*)?$
 URL-REGEX,^https://a\.qiumibao\.com/ios/[^/]*ad_target(/.*)?$
 URL-REGEX,^https://m\.ctrip\.com/[^/]*/tripAds(/.*)?$
@@ -545,6 +546,7 @@ URL-REGEX,^https://m\.client\.10010\.com/uniAdmsInterface/getHomePageAd(/.*)?$
 URL-REGEX,^https://m\.client\.10010\.com/uniAdmsInterface/getWelcomeAd(/.*)?$
 URL-REGEX,^https://clientaccess\.10086\.cn/biz\-orange/DN/init/startInit(/.*)?$
 URL-REGEX,^https://client\.app\.coc\.10086\.cn/biz\-orange/DN/explorePage/getAdverList(/.*)?$
+URL-REGEX,^https://client\.app\.coc\.10086\.cn/biz\-orange/dn/init/startinit(/.*)?$
 URL-REGEX,^https://client\.app\.coc\.10086\.cn/biz\-orange/DN/homepagePopup/(/.*)?$
 URL-REGEX,^https://m\.sd\.10086\.cn/zapi/app_common/homeWelcome/welcome\.do(/.*)?$
 URL-REGEX,^https://adm\.10jqka\.com\.cn/interface/ad/recommend(/.*)?$

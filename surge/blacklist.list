@@ -401,6 +401,7 @@ DOMAIN,hwpub-s01-drcn.cloud.dbankcloud.cn
 DOMAIN,hybrid.miniapp.taobao.com
 DOMAIN,hye.comp.360os.com
 DOMAIN,hyt.comp.360os.com
+DOMAIN,a1.alibabausercontent.com
 DOMAIN,ad.iot.360.cn
 DOMAIN,ad.jia.360.cn
 DOMAIN,ad.life.360.cn
@@ -1593,6 +1594,10 @@ DOMAIN,gslbali.ximalaya.com
 DOMAIN,duer-ad.cdn.bcebos.com
 DOMAIN,ssp.soulapp.cn
 DOMAIN,api.kuaishouzt.com
+DOMAIN,grpc.biliapi.net
+DOMAIN,v5-se-ex-mc-luna.douyinvod.com
+DOMAIN,huodong.caiyun.feixin.10086.cn
+DOMAIN,backendmarket.youdao.com
 DOMAIN,24h-ad.24hstatic.com
 DOMAIN,24h-ipad-ad.24hstatic.com
 DOMAIN,ad-us.24hstatic.com
