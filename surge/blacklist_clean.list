@@ -1032,6 +1032,7 @@ DOMAIN,httpdns.danuoyi.tbcache.com
 DOMAIN,wvcfg.alicdn.com.danuoyi.tbcache.com
 DOMAIN,mirrorcos.sched.stsoclegoby2-dk.tdnsvod1.cn
 DOMAIN,s3plus.sankuai.com
+DOMAIN,httpdns.bilivideo.com
 DOMAIN,mum.hzchengdun.com
 DOMAIN,bytedance.com.queniurc.com
 DOMAIN,frontier100-normal.zijieapi.com
@@ -1563,6 +1564,8 @@ DOMAIN,grpc.biliapi.net
 DOMAIN,v5-se-ex-mc-luna.douyinvod.com
 DOMAIN,huodong.caiyun.feixin.10086.cn
 DOMAIN,backendmarket.youdao.com
+DOMAIN,upos-sz-static.bilivideo.com
+DOMAIN,upos-sz-mirrorcos.bilivideo.com
 DOMAIN,24h-ad.24hstatic.com
 DOMAIN,24h-ipad-ad.24hstatic.com
 DOMAIN,ad-us.24hstatic.com
