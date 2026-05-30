@@ -1,5 +1,4 @@
 URL-REGEX,^https?://[^/]+/bilibili\.community\.service\.dm\.v1\.DM/DmSegMobile(/.*)?$
-URL-REGEX,^https?://[^/]+/bilibili\.community\.service\.dm\.v1\.DM/DmView(/.*)?$
 URL-REGEX,^https?://[^/]+/x/v2/dm/(/.*)?$
 URL-REGEX,^https?://[^/]+/x/v2/search/square(/.*)?$
 URL-REGEX,^https?://[^/]+/x/web\-interface/search/square(/.*)?$
