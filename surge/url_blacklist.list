@@ -391,6 +391,11 @@ URL-REGEX,^https://interface\.music\.163\.com/eapi/abtest(/.*)?$
 URL-REGEX,^https://iadmusicmat\.music\.163\.com(/.*)?$
 URL-REGEX,^https://rich\.kuwo\.cn/AdService/kaiping/adinfo(/.*)?$
 URL-REGEX,^https://mobilead\.kuwo\.cn/EcomResourceServer/adBubble(/.*)?$
+URL-REGEX,^https://bd\-api\.kuwo\.cn/api/service/finds/module(/.*)?$
+URL-REGEX,^https://bd\-api\.kuwo\.cn/api/service/banner/myPage(/.*)?$
+URL-REGEX,^https://bd\-api\.kuwo\.cn/api/play/listening/entrance/music(/.*)?$
+URL-REGEX,^https://bd\-api\.kuwo\.cn/api/service/advert/watch(/.*)?$
+URL-REGEX,^https://h5app\.kuwo\.cn/m/kwtemplatePage/index\.html(/.*)?$
 URL-REGEX,^https://iface\.iqiyi\.com/api/getNewAdInfo(/.*)?$
 URL-REGEX,^https://iface2\.iqiyi\.com/fusion/3\.0/fusion_switch(/.*)?$
 URL-REGEX,^https://act\.vip\.iqiyi\.com/interact/api/show\.do(/.*)?$
@@ -602,8 +607,6 @@ URL-REGEX,^https://restapi\.amap\.com/v3/activity/(/.*)?$
 URL-REGEX,^https://api\.zhihu\.com/metrics/report(/.*)?$
 URL-REGEX,^https://goofish\.com/splash(/.*)?$
 URL-REGEX,^https://goofish\.com/ad(/.*)?$
-URL-REGEX,^https://file\.video\.qpic\.cn/file_offline_package_manage_(/.*)?$
-URL-REGEX,^https://media\-img\.puui\.qpic\.cn/media_img(/.*)?$
 URL-REGEX,^https://richmedia\.video\.qq\.com/get_rich_media_info(/.*)?$
 URL-REGEX,^https://cdn2\.guangtuikeji\.com/adx(/.*)?$
 URL-REGEX,^https://guoguo\-cdn\.cainiao\.com/cnn_guide_ads(/.*)?$

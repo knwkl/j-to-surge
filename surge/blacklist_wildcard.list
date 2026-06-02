@@ -2,7 +2,6 @@ DOMAIN-WILDCARD,*.cupid.iqiyi.com
 DOMAIN-WILDCARD,*.cupid.ptqy.gitv.tv
 DOMAIN-WILDCARD,p*-ad-aweme.byteimg.com
 DOMAIN-WILDCARD,v*-ad.video.yximgs.com
-DOMAIN-WILDCARD,p*-webcast-sign.douyinpic.com
 DOMAIN-WILDCARD,ad-*file.myqcloud.com
 DOMAIN-WILDCARD,*-ad.adbkwai.com
 DOMAIN-WILDCARD,*-ad.gskwai.com
@@ -29,6 +28,7 @@ DOMAIN-WILDCARD,mads*z.com
 DOMAIN-WILDCARD,n*adserv.com
 DOMAIN-WILDCARD,n*adserv.xyz
 DOMAIN-WILDCARD,prod.*.publishers.advertising.a2z.com
+DOMAIN-WILDCARD,p*-webcast-sign.douyinpic.com
 DOMAIN-WILDCARD,*.cloudfront.net
 DOMAIN-WILDCARD,ads*-normal-*.zijieapi.com
 DOMAIN-WILDCARD,mon*-misc-*.fqnovel.com
@@ -121,7 +121,6 @@ DOMAIN-WILDCARD,*.pangolin-sdk-toutiao.com
 DOMAIN-WILDCARD,*.pangolin-sdk-toutiao-b.com
 DOMAIN-WILDCARD,*.pangolin-sdk-toutiao1.com
 DOMAIN-WILDCARD,*ad-sign.byteimg.com
-DOMAIN-WILDCARD,gecko*-*.zijieapi.com
 DOMAIN-WILDCARD,*.iggrowth.cn
 DOMAIN-WILDCARD,*.mentamob.com
 DOMAIN-WILDCARD,*.anythinktech.com

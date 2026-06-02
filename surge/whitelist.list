@@ -217,7 +217,6 @@ DOMAIN,dnlog.cmpassport.com
 DOMAIN,pub.idqqimg.com
 DOMAIN,crl.apple.com
 DOMAIN,dataflow.biliapi.com
-DOMAIN,dns.weixin.qq.com.cn
 DOMAIN,gsa.apple.com
 DOMAIN,gslb.qianxun.com
 DOMAIN,huawei.com
@@ -264,7 +263,6 @@ DOMAIN,status-ipv6.jpush.cn
 DOMAIN,tsis-ipv6.jpush.cn
 DOMAIN,tsis.jpush.cn
 DOMAIN,www.coolapk.com
-DOMAIN,wxsnsdythumb.wxs.qq.com
 DOMAIN,xmcdn.com
 DOMAIN,xmly.com
 DOMAIN,miniapp.bilibili.com

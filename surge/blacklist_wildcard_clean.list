@@ -119,7 +119,6 @@ DOMAIN-WILDCARD,*.pangolin-sdk-toutiao.com
 DOMAIN-WILDCARD,*.pangolin-sdk-toutiao-b.com
 DOMAIN-WILDCARD,*.pangolin-sdk-toutiao1.com
 DOMAIN-WILDCARD,*ad-sign.byteimg.com
-DOMAIN-WILDCARD,gecko*-*.zijieapi.com
 DOMAIN-WILDCARD,*.iggrowth.cn
 DOMAIN-WILDCARD,*.mentamob.com
 DOMAIN-WILDCARD,*.anythinktech.com

@@ -465,7 +465,6 @@ DOMAIN,l6.fancyapi.com
 DOMAIN,launcher.smart-tv.cn
 DOMAIN,launcherimg.smart-tv.cn
 DOMAIN,lf3-ad-union-sdk.pglstatp-toutiao.com
-DOMAIN,lf3-reading.fqnovelpic.com
 DOMAIN,lf6-ad-union-sdk.pglstatp-toutiao.com
 DOMAIN,lftxali.fancyapi.com
 DOMAIN,lh3.googleadsserving.cn
@@ -590,8 +589,6 @@ DOMAIN,p2pupdate.gamedl.qq.com
 DOMAIN,p2pupgrade.gamedl.qq.com
 DOMAIN,p3-be-pack-sign.pglstatp-toutiao.com
 DOMAIN,p3-lm.adkwai.com
-DOMAIN,p3-reading-sign.fqnovelpic.com
-DOMAIN,p3-tt.byteimg.com
 DOMAIN,p4-be-pack-sign.pglstatp-toutiao.com
 DOMAIN,p5-be-pack-sign.pglstatp-toutiao.com
 DOMAIN,p6-be-pack-sign.pglstatp-toutiao.com
@@ -830,7 +827,6 @@ DOMAIN,win.gdt.qq.com
 DOMAIN,ws.sj.qq.com
 DOMAIN,wv.inner-active.mobi
 DOMAIN,wwads.cn
-DOMAIN,wxa.wxs.qq.com
 DOMAIN,wxaintpcos.wxqcloud.qq.com.cn
 DOMAIN,wxsnsad.tc.qq.com
 DOMAIN,wxsnsdy.tc.qq.com
@@ -900,7 +896,6 @@ DOMAIN,adx.halomobi.com
 DOMAIN,creative.feedsads.cn
 DOMAIN,adx.anythinktech.com
 DOMAIN,impdsp.meituan.com
-DOMAIN,video4-x.pddpic.com
 DOMAIN,ad.xiaohongshu.com
 DOMAIN,neptune-api.volces.com
 DOMAIN,disp-qryapi.3g.qq.com
@@ -941,7 +936,6 @@ DOMAIN,cpush.ctrip.com
 DOMAIN,ma-adx.ctrip.com
 DOMAIN,pages.ctrip.com
 DOMAIN,ad.p3-sign.douyinpic.com
-DOMAIN,p3-sign.douyinpic.com.queniusy.com
 DOMAIN,tao.ad.tao.tengine.ingress.alibabacorp.com
 DOMAIN,px.effirst.com
 DOMAIN,bjimp.voiceads.cn
@@ -1093,6 +1087,7 @@ DOMAIN,marketing.p3-sign.douyinpic.com
 DOMAIN,mmstat.com
 DOMAIN,mp.ximalaya.com.eo.dnse1.com
 DOMAIN,na61-na62.wagbridge.alibaba.tanx.com.gds.alibabadns.com
+DOMAIN,p3-sign.douyinpic.com.queniusy.com
 DOMAIN,p3-sign.douyinpic.com.w.alikunlun.com
 DOMAIN,popup.jd.com
 DOMAIN,promo.p3-sign.douyinpic.com
@@ -1265,12 +1260,6 @@ DOMAIN,ads.uc.cn
 DOMAIN,adslot.uc.cn
 DOMAIN,e.uc.cn
 DOMAIN,ad-log-upload.mihoyo.com
-DOMAIN,video4-1.pddpic.com
-DOMAIN,video4-5.pddpic.com
-DOMAIN,video4-e.pddpic.com
-DOMAIN,video4-p.pddpic.com
-DOMAIN,video4-p.pddugc.com
-DOMAIN,live11-adapt.pddpic.com
 DOMAIN,rc-track.66mobi.com
 DOMAIN,adx-strategy-api.hookspf.com
 DOMAIN,bridgeads.massx.com
