@@ -11,6 +11,7 @@ DOMAIN,ad-cdn.qingting.fm
 DOMAIN,ad-scope.com
 DOMAIN,ad-scope.com.cn
 DOMAIN,ad-sdk-config.youdao.com
+DOMAIN,ad-screen-api.immomo.com
 DOMAIN,ad-splash-tracking.hktvmall.com
 DOMAIN,ad-splash.hktvmall.com
 DOMAIN,ad.12306.cn
@@ -1181,6 +1182,7 @@ DOMAIN,ma.zijieapi.com
 DOMAIN,feedback-c.zijieapi.com
 DOMAIN,mktm.jd.com
 DOMAIN,broker.tips2.gz.tencent.com
+DOMAIN,app-alpha.bytedance.net
 DOMAIN,adtrack.qianwen.com
 DOMAIN,dsp.ads.umeng.com
 DOMAIN,mssdk.bytedance.com
@@ -1204,9 +1206,6 @@ DOMAIN,vhdezl.launches.appsflyersdk.com
 DOMAIN,vhdezl.skadsdkless.appsflyersdk.com
 DOMAIN,vhdezl.cdn-settings.appsflyersdk.com
 DOMAIN,tower.17gwx.com
-DOMAIN,i-lq.snssdk.com
-DOMAIN,is.snssdk.com
-DOMAIN,security-lq.snssdk.com
 DOMAIN,v6-novelapp.ixigua.com
 DOMAIN,gecko5-hj.zijieapi.com
 DOMAIN,gecko5-lq.zijieapi.com

@@ -1,3 +1,11 @@
+DOMAIN-WILDCARD,p*-ad.adkwai.com
+DOMAIN-WILDCARD,v*-ad.adkwai.com
+DOMAIN-WILDCARD,p*-ad.adukwai.com
+DOMAIN-WILDCARD,v*-ad.adukwai.com
+DOMAIN-WILDCARD,p*-lm.adkwai.com
+DOMAIN-WILDCARD,v*-lm.adkwai.com
+DOMAIN-WILDCARD,p*-lm.adukwai.com
+DOMAIN-WILDCARD,v*-lm.adukwai.com
 DOMAIN-WILDCARD,*.cupid.iqiyi.com
 DOMAIN-WILDCARD,*.cupid.ptqy.gitv.tv
 DOMAIN-WILDCARD,p*-ad-aweme.byteimg.com
