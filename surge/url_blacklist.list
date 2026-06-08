@@ -74,7 +74,6 @@ URL-REGEX,^https://poplayer\.template\.alibaba\.com/92e26e8fba1f4b88b715e526e1f7
 URL-REGEX,^https://alicdn\.com/ad/(/.*)?$
 URL-REGEX,^https://baidu\.com/ad/(/.*)?$
 URL-REGEX,^https://i0\.hdslb\.com/bfs/splash(/.*)?$
-URL-REGEX,^https://gw\.alipayobjects\.com/ad/(/.*)?$
 URL-REGEX,^https://ossgw\.alicdn\.com/ad/(/.*)?$
 URL-REGEX,^https://tmall\.com/ad/(/.*)?$
 URL-REGEX,^https://amap\.com/ad/(/.*)?$
@@ -425,7 +424,6 @@ URL-REGEX,^https://home\.mi\.com/cgi\-op/api/v1/recommendation/myTab(/.*)?$
 URL-REGEX,^https://home\.mi\.com/cgi\-op/api/v1/recommendation/openingBanner(/.*)?$
 URL-REGEX,^https://api\.m\.mi\.com/v1/app/start(/.*)?$
 URL-REGEX,^https://hd\.mina\.mi\.com/splashscreen/alert(/.*)?$
-URL-REGEX,^https://shop\-api\.retail\.mi\.com/mtop/navi/skywheel/mishop/splash(/.*)?$
 URL-REGEX,^https://shopapi\.io\.mi\.com/mtop/mf/resource/homePage/pageConfig(/.*)?$
 URL-REGEX,^https://t1\.market\.xiaomi\.com/thumbnail/webp/w1170q100(/.*)?$
 URL-REGEX,^https://api\-fouth\-mem\.huazhu\.com/api/rights/bannerList(/.*)?$
@@ -637,3 +635,5 @@ URL-REGEX,^https://home\.mi\.com/cgi\-op/api/v1/recommendation(/.*)?$
 URL-REGEX,^https://drs\-ipv6\.wtzw\.com/client\-aggregate/reader_free_ios(/.*)?$
 URL-REGEX,^https://drs\.wtzw\.com/api/v1/i4(/.*)?$
 URL-REGEX,^https://drs\-ipv6\.wtzw\.com/api/v3/config(/.*)?$
+URL-REGEX,^https://lf3\-short\.ibytedapm\.com/slardar/fe/sdk\-web/(/.*)?$
+URL-REGEX,^https://p3\-dcd\.byteimg\.com/obj/motor\-mis\-img/5ec2c8af22bc17aedafe147a1d38f21d\.json(/.*)?$
