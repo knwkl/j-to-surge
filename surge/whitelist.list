@@ -221,8 +221,10 @@ DOMAIN,pub.idqqimg.com
 DOMAIN,crl.apple.com
 DOMAIN,dataflow.biliapi.com
 DOMAIN,dns.weixin.qq.com.cn
+DOMAIN,extshort.weixin.qq.com
 DOMAIN,gsa.apple.com
 DOMAIN,gslb.qianxun.com
+DOMAIN,gtimg.wechatpay.cn
 DOMAIN,huawei.com
 DOMAIN,image.coolapk.com
 DOMAIN,iosapps.itunes.apple.com
@@ -254,9 +256,11 @@ DOMAIN,msv6.wosms.cn
 DOMAIN,sdkapi.cloooud.com
 DOMAIN,ocsp.apple.com
 DOMAIN,ocsp2.apple.com
+DOMAIN,paydns.wechatpay.cn
 DOMAIN,passport.bilibili.cn
 DOMAIN,passport.ximalaya.com
 DOMAIN,push.coolapk.com
+DOMAIN,res.wx.qq.com
 DOMAIN,s.jpush.cn
 DOMAIN,se-edge.itunes.apple.com
 DOMAIN,sis-ipv6.jpush.cn
@@ -266,6 +270,10 @@ DOMAIN,status-ipv6.jpush.cn
 DOMAIN,tsis-ipv6.jpush.cn
 DOMAIN,tsis.jpush.cn
 DOMAIN,www.coolapk.com
+DOMAIN,wxa.wxs.qq.com
+DOMAIN,wximg.wxs.qq.com
+DOMAIN,wxsmw.wxs.qq.com
+DOMAIN,wxsnsdythumb.wxs.qq.com
 DOMAIN,xmcdn.com
 DOMAIN,xmly.com
 DOMAIN,miniapp.bilibili.com
