@@ -12,7 +12,6 @@ DOMAIN,mars.jd.com
 DOMAIN,policy.jd.com
 DOMAIN,ib.snssdk.com
 DOMAIN,download.voicecloud.cn
-DOMAIN,apm-fe.xiaohongshu.com
 DOMAIN,apij-tong.gyyx.cn
 DOMAIN,api-phonekey.gyyx.cn
 DOMAIN,policy.video.iqiyi.com
@@ -66,14 +65,12 @@ DOMAIN,LOG-AUTH.FLYSLEEP.CN
 DOMAIN,log-auth.flysleep.cn
 DOMAIN,dypnsapi.aliyuncs.com
 DOMAIN,dypnsapi-dualstack.aliyuncs.com
-DOMAIN,apm-native.xiaohongshu.com
 DOMAIN,grs.dbankcloud.eu
 DOMAIN,grs.dbankcloud.cn
 DOMAIN,grs.dbankcloud.asia
 DOMAIN,pd.itunes.apple.com
 DOMAIN,kuroimages.com
 DOMAIN,tracker.didistatic.com
-DOMAIN,spider-tracker.xiaohongshu.com
 DOMAIN,statichf.shihuocdn.cn
 DOMAIN,apple.com
 DOMAIN,icloud.com
@@ -176,6 +173,7 @@ DOMAIN,api.vip.miui.com
 DOMAIN,cnbj1.fds.api.xiaomi.com
 DOMAIN,gateway.kugou.com
 DOMAIN,mpaywsa.ximalaya.com
+DOMAIN,apm-native.xiaohongshu.com
 DOMAIN,stat6.y.qq.com
 DOMAIN,report.tencentmusic.com
 DOMAIN,monitor.music.qq.com
@@ -271,10 +269,6 @@ DOMAIN,status-ipv6.jpush.cn
 DOMAIN,tsis-ipv6.jpush.cn
 DOMAIN,tsis.jpush.cn
 DOMAIN,www.coolapk.com
-DOMAIN,wxa.wxs.qq.com
-DOMAIN,wximg.wxs.qq.com
-DOMAIN,wxsmw.wxs.qq.com
-DOMAIN,wxsnsdythumb.wxs.qq.com
 DOMAIN,xmcdn.com
 DOMAIN,xmly.com
 DOMAIN,miniapp.bilibili.com
