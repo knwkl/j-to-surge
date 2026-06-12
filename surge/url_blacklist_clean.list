@@ -97,6 +97,7 @@ URL-REGEX,^https://api\-hl\.amemv\.com/aweme/v1/ad/(/.*)?$
 URL-REGEX,^https://api\-hl\.amemv\.com/aweme/v1/splash/(/.*)?$
 URL-REGEX,^https://tr\.byteurl\.cn/ad(/.*)?$
 URL-REGEX,^https://tr\.byteurl\.cn/ug/ad(/.*)?$
+URL-REGEX,^https://jt\-sdk\-ios\.oss\-cn\-beijing\.aliyuncs\.com/iosconfig\.txt(/.*)?$
 URL-REGEX,^https://api5\-lq\.qishui\.com/luna/ads/config(/.*)?$
 URL-REGEX,^https://api5\-lq\.qishui\.com/luna/advert(/.*)?$
 URL-REGEX,^https://api5\-lq\.qishui\.com/luna/launch(/.*)?$
@@ -110,7 +111,6 @@ URL-REGEX,^https://app\.bilibili\.com/x/v2/feed/coldstart(/.*)?$
 URL-REGEX,^https://api\.bilibili\.com/open(/.*)?$
 URL-REGEX,^https://api\.bilibili\.com/x/v2/dm/exposure(/.*)?$
 URL-REGEX,^https://gaoneng\.bilibili\.com/tetris/page/[^/]*adtype=CPM[^/]*
-URL-REGEX,^https://api\.bilibili\.com/x/internal/gaia\-gateway/ExClimbCongLing(/.*)?$
 URL-REGEX,^https://api\.bilibili\.com/x/push/popup(/.*)?$
 URL-REGEX,^https://im\-x\.jd\.com/dsp/(/.*)?$
 URL-REGEX,^https://grpc\.biliapi\.net/bilibili\.app\.coldstart\.v1\.ColdStart/GetColdStartDeferredData(/.*)?$
@@ -137,7 +137,6 @@ URL-REGEX,^https://acs\.m\.goofish\.com/gw/mtop\.taobao\.idlehome\.home\.circle\
 URL-REGEX,^https://ynuf\.aliapp\.org/service/um\.json(/.*)?$
 URL-REGEX,^https://mpaasapi\.mpaas\.cn\-hangzhou\.aliyuncs\.com/mgw\.htm(/.*)?$
 URL-REGEX,^https://mdap\.mpaas\.cn\-hangzhou\.aliyuncs\.com/loggw/logconfig\.do(/.*)?$
-URL-REGEX,^https://[^/]*\.aliyuncs\.com/adverts/[^/]*
 URL-REGEX,^https://open\.laiyagushi\.com/ad\-track(/.*)?$
 URL-REGEX,^https://acs\.m\.goofish\.com/gw/mtop\.idle\.idleadv\.app\.launch(/.*)?$
 URL-REGEX,^https://acs\.m\.goofish\.com/gw/mtop\.idle\.ad\.expose(/.*)?$
@@ -322,6 +321,9 @@ URL-REGEX,^https://gateway3\.kugou\.com/ads\.gateway(/.*)?$
 URL-REGEX,^https://[^/]*\.kugou\.com/ads\.gateway(/.*)?$
 URL-REGEX,^https://gatewayretry\.kugou\.com/adp(/.*)?$
 URL-REGEX,^https://gatewayretry\.kugou\.com/vipenergy/v1/free_time_ad(/.*)?$
+URL-REGEX,^https://activity\.kugou\.com/getvips/[^/]*/static/js/@kg_uni\-gdt\-view\-sdk(/.*)?$
+URL-REGEX,^https://h5\.kugou\.com/modal/[^/]*/static/js/@kg_gdt\-(/.*)?$
+URL-REGEX,^https://h5\.kugou\.com/modal/[^/]*/static/js/@kg_uni\-gdt\-(/.*)?$
 URL-REGEX,^https://3pp\.starbucks\.com\.cn/wxmem/index/banner(/.*)?$
 URL-REGEX,^https://3pp\.starbucks\.com\.cn/wxmem/popup(/.*)?$
 URL-REGEX,^https://ad\.maoyan\.com/api/position/detail(/.*)?$
@@ -543,7 +545,6 @@ URL-REGEX,^https://creditcardapp\.bankcomm\.cn/mappweb_interface/common/qryPopAd
 URL-REGEX,^https://creditcardapp\.bankcomm\.cn/mappweb_interface/common/qryLaunchAds\.do(/.*)?$
 URL-REGEX,^https://creditcardapp\.bankcomm\.com/mapp/common/getPopAds\.do(/.*)?$
 URL-REGEX,^https://creditcardapp\.bankcomm\.com/mapp/common/queryGuidePageAds\.do(/.*)?$
-URL-REGEX,^https://v\.icbc\.com\.cn/userfiles/Resources/WAP/advertisement(/.*)?$
 URL-REGEX,^https://m\.client\.10010\.com/getDataFromService\?[^/]*\&methodType=topAdGet(/.*)?$
 URL-REGEX,^https://m\.client\.10010\.com/mobileService/customer/get_client_adv(/.*)?$
 URL-REGEX,^https://m\.client\.10010\.com/mobileService/customer/get_startadv(/.*)?$

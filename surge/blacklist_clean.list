@@ -293,6 +293,7 @@ DOMAIN,config.inmobi.com
 DOMAIN,config.unityads.unity3d.com
 DOMAIN,cpc-service-square.aiclk.com
 DOMAIN,cpro.baidustatic.com
+DOMAIN,cpro.xdmssp.com
 DOMAIN,crash2.zhihu.com
 DOMAIN,crashlyticsreports-pa.googleapis.com
 DOMAIN,csjplatform.com
@@ -306,6 +307,7 @@ DOMAIN,data.mistat.india.xiaomi.com
 DOMAIN,data.mistat.rus.xiaomi.com
 DOMAIN,data.mistat.xiaomi.com
 DOMAIN,datacollection.uve.weibo.com
+DOMAIN,bd.wintaosaas.com
 DOMAIN,dc.sigmob.cn
 DOMAIN,de.tynt.com
 DOMAIN,deepinstall.com
@@ -330,6 +332,7 @@ DOMAIN,edge.ads.twitch.tv
 DOMAIN,ef-dongfeng.tanx.com
 DOMAIN,entry.baidu.com
 DOMAIN,et-eus.w.inmobi.com
+DOMAIN,event.dashisx.com
 DOMAIN,event.tradplusad.com
 DOMAIN,events-drcn.op.dbankcloud.cn
 DOMAIN,events.reddit.com
@@ -337,6 +340,7 @@ DOMAIN,events.redditmedia.com
 DOMAIN,fancyapi.com
 DOMAIN,fclog.baidu.com
 DOMAIN,feed-image.baidu.com
+DOMAIN,fg.xiawan8.com
 DOMAIN,file.daihuo.qq.com
 DOMAIN,firebaselogging-pa.googleapis.com
 DOMAIN,flurry.com
@@ -572,6 +576,7 @@ DOMAIN,open.kuaishouzt.com
 DOMAIN,open.kwaizt.com
 DOMAIN,open.snssdk.com
 DOMAIN,openadapi.fancydsp.com
+DOMAIN,mpcfg.fancydsp.com
 DOMAIN,optimus-ads.amap.com
 DOMAIN,orbit.jd.com
 DOMAIN,oss.cdn.aiclk.com
@@ -638,6 +643,7 @@ DOMAIN,rt.applovin.com
 DOMAIN,rt.applvn.com
 DOMAIN,rtb.adxsenmeng.com
 DOMAIN,rtb.voiceads.cn
+DOMAIN,rtbcallback.sigmob.cn
 DOMAIN,s.amazon-adsystem.com
 DOMAIN,s1.cdn-sg.advlion.com
 DOMAIN,s8t.teads.tv
@@ -750,6 +756,7 @@ DOMAIN,trace.qq.com
 DOMAIN,tracelog-debug.aiclk.com
 DOMAIN,tracelog-debug.qquanquan.com
 DOMAIN,track.lc.quark.cn
+DOMAIN,track.xdmssp.com
 DOMAIN,track.uc.cn
 DOMAIN,tracker.ai.xiaomi.com
 DOMAIN,tracker.gitee.com
@@ -1020,7 +1027,6 @@ DOMAIN,httpdns.danuoyi.tbcache.com
 DOMAIN,wvcfg.alicdn.com.danuoyi.tbcache.com
 DOMAIN,mirrorcos.sched.stsoclegoby2-dk.tdnsvod1.cn
 DOMAIN,s3plus.sankuai.com
-DOMAIN,httpdns.bilivideo.com
 DOMAIN,mum.hzchengdun.com
 DOMAIN,bytedance.com.queniurc.com
 DOMAIN,frontier100-normal.zijieapi.com
@@ -1565,6 +1571,7 @@ DOMAIN,adxapi.readgps.com
 DOMAIN,lemon.gameley.com
 DOMAIN,v95-zjbwz-alismart-reading-video.qznovelvod.com
 DOMAIN,adx-ad-prod.wkanx.com
+DOMAIN,fancydsp.oss-cn-beijing.aliyuncs.com
 DOMAIN,24h-ad.24hstatic.com
 DOMAIN,24h-ipad-ad.24hstatic.com
 DOMAIN,ad-us.24hstatic.com
