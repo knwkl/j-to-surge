@@ -28,14 +28,10 @@ DOMAIN,activity.m.duiba.com.cn
 DOMAIN,switch.cup.com.cn
 DOMAIN,effect.snssdk.com
 DOMAIN,gecko.zijieapi.com
-DOMAIN,tnc3-bjlgy.zijieapi.com
-DOMAIN,tnc3-aliec2.zijieapi.com
-DOMAIN,tnc3-alisc1.zijieapi.com
 DOMAIN,tnc3-bjlgy.snssdk.com
 DOMAIN,tnc3-aliec2.snssdk.com
 DOMAIN,tnc3-alisc1.snssdk.com
 DOMAIN,mssdk.bytedance.com
-DOMAIN,mssdk.volces.com
 DOMAIN,pitaya.bytedance.com
 DOMAIN,user.jpush.cn
 DOMAIN,user-ipv6.jpush.cn
@@ -207,7 +203,6 @@ DOMAIN,amp-api-updates.apps.apple.com
 DOMAIN,apd-pcdnwxlogin.teg.tencent-cloud.net
 DOMAIN,apd-pcdnwxnat.teg.tencent-cloud.net
 DOMAIN,apd-pcdnwxstat.teg.tencent-cloud.net
-DOMAIN,api.coolapk.com
 DOMAIN,api.ximalaya.com
 DOMAIN,app-site-association.cdn-apple.com
 DOMAIN,auth.wosms.cn

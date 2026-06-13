@@ -750,9 +750,13 @@ DOMAIN,tnc3-aliec1.toutiaoapi.com
 DOMAIN,tnc3-aliec2.bytedance.com
 DOMAIN,tnc3-aliec2.snssdk.com
 DOMAIN,tnc3-aliec2.toutiaoapi.com
+DOMAIN,tnc3-aliec2.zijieapi.com
 DOMAIN,tnc3-alisc1.bytedance.com
 DOMAIN,tnc3-alisc1.snssdk.com
 DOMAIN,tnc3-alisc1.toutiaoapi.com
+DOMAIN,tnc3-alisc1.zijieapi.com
+DOMAIN,tnc3-alisc2.zijieapi.com
+DOMAIN,bj.openstorage.cn
 DOMAIN,tnc3-bjlgy.bytedance.com
 DOMAIN,tnc3-bjlgy.snssdk.com
 DOMAIN,tnc3-bjlgy.toutiaoapi.com
@@ -815,6 +819,7 @@ DOMAIN,v2mi.gdt.qq.com
 DOMAIN,v3-ad.video.yximgs.com
 DOMAIN,v3.gdt.qq.com
 DOMAIN,vd6.l.qq.com
+DOMAIN,s.adxvip.com
 DOMAIN,video-ad.sm.cn
 DOMAIN,video-dsp.pddpic.com
 DOMAIN,video.dispatch.tc.qq.com
@@ -1319,6 +1324,7 @@ DOMAIN,lf-leads-fe-scm.bytecdn.com
 DOMAIN,tj-adc-exposure.wtzw.com
 DOMAIN,bsccdn.net
 DOMAIN,dig.zjurl.cn
+DOMAIN,dig.bdurl.net
 DOMAIN,apps.bytesfield.com
 DOMAIN,pangolin-sdk-toutiao.com
 DOMAIN,pangolin-sdk-toutiao1.com
@@ -1603,6 +1609,8 @@ DOMAIN,lemon.gameley.com
 DOMAIN,v95-zjbwz-alismart-reading-video.qznovelvod.com
 DOMAIN,adx-ad-prod.wkanx.com
 DOMAIN,fancydsp.oss-cn-beijing.aliyuncs.com
+DOMAIN,cd.yfanads.cn
+DOMAIN,dsp.cdn.gameley.com
 DOMAIN,24h-ad.24hstatic.com
 DOMAIN,24h-ipad-ad.24hstatic.com
 DOMAIN,ad-us.24hstatic.com
@@ -3498,7 +3506,6 @@ DOMAIN,yesads.com
 DOMAIN,yesadvertising.com
 DOMAIN,yoc-adserver.com
 DOMAIN,youradexchange.com
-DOMAIN,dig.bdurl.net
 DOMAIN,vdn-ad.vzuu.com
 DOMAIN,cn3-bid.adsrvr.cn
 DOMAIN,tc.weszxdrf.com

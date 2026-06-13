@@ -139,6 +139,7 @@ URL-REGEX,^https://upos\-sz\-staticcos\.bilivideo\.com/appstaticboss(/.*)?$
 URL-REGEX,^https://app\.bilibili\.com/x/v2/splash(/.*)?$
 URL-REGEX,^https://mall\.bilibili\.com/mall\-c\-search/app/config/all(/.*)?$
 URL-REGEX,^https://api\.bilibili\.com/x/vas_ads_open(/.*)?$
+URL-REGEX,^https://grpc\.biliapi\.net/bilibili\.app\.viewunite\.v1\.view/playpause(/.*)?$
 URL-REGEX,^https://acs\.m\.goofish\.com/gw/mtop\.taobao\.baichuan\.afc\.linkinforapidly(/.*)?$
 URL-REGEX,^https://acs\.m\.goofish\.com/gw/mtop\.idle\.idleadv\.app\.launch\.report(/.*)?$
 URL-REGEX,^https://acs\.m\.goofish\.com/gw/mtop\.taobao\.idle\.activity\.query(/.*)?$
@@ -157,6 +158,7 @@ URL-REGEX,^https://acs\.m\.goofish\.com/gw/mtop\.taobao\.idle\.rule\.config(/.*)
 URL-REGEX,^https://acs\.m\.goofish\.com/gw/mtop\.taobao\.baichuan\.afc\.get(/.*)?$
 URL-REGEX,^https://acs\.m\.taobao\.com/gw/mtop\.taobao\.baichuan\.afc\.linkinforapidly(/.*)?$
 URL-REGEX,^https://acs\.m\.taobao\.com/gw/mtop\.idle\.idleadv\.app\.launch\.report(/.*)?$
+URL-REGEX,^https://acs\.m\.taobao\.com/gw/mtop\.common\.gettimestamp(/.*)?$
 URL-REGEX,^https://mdike\.alicdn\.com/12431167\-1709694392483\-0\.json(/.*)?$
 URL-REGEX,^https://acs\.m\.taobao\.com/gw/mtop\.taobao\.wireless\.home\.splash(/.*)?$
 URL-REGEX,^https://acs\.m\.taobao\.com/gw/mtop\.alimarket\.splash(/.*)?$
@@ -281,6 +283,9 @@ URL-REGEX,^https://sugar\.zhihu\.com/ad\-track(/.*)?$
 URL-REGEX,^https://sugar\.zhihu\.com/glory_adreaper(/.*)?$
 URL-REGEX,^https://appcloud2\.in\.zhihu\.com/api/env/check(/.*)?$
 URL-REGEX,^https://pic1\.zhimg\.com/[^/]*_1440w\.webp(/.*)?$
+URL-REGEX,^https://download[^/]*\.vzuu\.com/ad\-style\-service(/.*)?$
+URL-REGEX,^https://download[^/]*\.vzuu\.com/commercial_api/real_time_launch_v2(/.*)?$
+URL-REGEX,^https://download[^/]*\.vzuu\.com/commercial_api/launch_v2(/.*)?$
 URL-REGEX,^https://api\.weibo\.cn/2/client/launch(/.*)?$
 URL-REGEX,^https://api\.weibo\.cn/[^/]*/ad(/.*)?$
 URL-REGEX,^https://1249900002\-0\.m\.ctrmi\.cn/t/ad2(/.*)?$
@@ -289,6 +294,7 @@ URL-REGEX,^https://api\.weibo\.cn/2/sdk/union_config(/.*)?$
 URL-REGEX,^https://vs\.biz\.weibo\.com/sdkserver/brand_monitor(/.*)?$
 URL-REGEX,^https://wbapp\.uve\.weibo\.com/wbapplua/wbpullad\.lua(/.*)?$
 URL-REGEX,^https://api\.weibo\.cn/2/client/get_grayfeature(/.*)?$
+URL-REGEX,^https://weibointl\.api\.weibo\.cn/portal\.php\?a=get_coopen_ads(/.*)?$
 URL-REGEX,^https://netflow\-reply\-mtop\.cainiao\.com/gw/mtop\.cainiao\.guoguo\.ads(/.*)?$
 URL-REGEX,^https://netflow\-mtop\.cainiao\.com/gw/mtop\.cainiao\.guoguo\.nbnetflow\.ads\.show(/.*)?$
 URL-REGEX,^https://netflow\-reply\-mtop\.cainiao\.com/gw/mtop\.cainiao\.guoguo\.ads\.click\.reply\.cn(/.*)?$

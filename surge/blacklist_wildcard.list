@@ -36,6 +36,8 @@ DOMAIN-WILDCARD,mads*z.com
 DOMAIN-WILDCARD,n*adserv.com
 DOMAIN-WILDCARD,n*adserv.xyz
 DOMAIN-WILDCARD,prod.*.publishers.advertising.a2z.com
+DOMAIN-WILDCARD,*.yfanads.com
+DOMAIN-WILDCARD,*.lingjuad.com
 DOMAIN-WILDCARD,wxsnsdy.*
 DOMAIN-WILDCARD,*dsp.*.aliyuncs.com
 DOMAIN-WILDCARD,*.bridgeoos.com
