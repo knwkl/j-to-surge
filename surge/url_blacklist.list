@@ -87,6 +87,7 @@ URL-REGEX,^https://poplayer\.template\.alibaba\.com/92e26e8fba1f4b88b715e526e1f7
 URL-REGEX,^https://alicdn\.com/ad/(/.*)?$
 URL-REGEX,^https://baidu\.com/ad/(/.*)?$
 URL-REGEX,^https://i0\.hdslb\.com/bfs/splash(/.*)?$
+URL-REGEX,^https://boss\.hdslb\.com/bfs/splash(/.*)?$
 URL-REGEX,^https://ossgw\.alicdn\.com/ad/(/.*)?$
 URL-REGEX,^https://tmall\.com/ad/(/.*)?$
 URL-REGEX,^https://amap\.com/ad/(/.*)?$
@@ -610,7 +611,7 @@ URL-REGEX,^https://support\.you\.163\.com/xhr/boot/getBootMedia\.json(/.*)?$
 URL-REGEX,^https://m\.you\.163\.com/activity/popWindow(/.*)?$
 URL-REGEX,^https://app\.bilibili\.com/x/v2/splash/show(/.*)?$
 URL-REGEX,^https://app\.bilibili\.com/x/v2/splash/brand/list(/.*)?$
-URL-REGEX,^https://grpc\.biliapi\.net/bilibili\.community\.service\.dm\.v1\.dm/dmview(/.*)?$
+URL-REGEX,^https://app\.bilibili\.com/bilibili\.app\.viewunite\.v1\.view/playpause(/.*)?$
 URL-REGEX,^https://app\.bilibili\.com/x/vip/ads/material/report(/.*)?$
 URL-REGEX,^https://api\.bilibili\.com/x/vip/ads/material/report(/.*)?$
 URL-REGEX,^https://cpevs\.500star\.com/esinfo/loading/get_thridparity_open_ads(/.*)?$
