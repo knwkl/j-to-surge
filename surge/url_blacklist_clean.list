@@ -87,7 +87,13 @@ URL-REGEX,^https://poplayer\.template\.alibaba\.com/92e26e8fba1f4b88b715e526e1f7
 URL-REGEX,^https://alicdn\.com/ad/(/.*)?$
 URL-REGEX,^https://baidu\.com/ad/(/.*)?$
 URL-REGEX,^https://i0\.hdslb\.com/bfs/splash(/.*)?$
+URL-REGEX,^https://i0\.hdslb\.com/bfs/ad(/.*)?$
 URL-REGEX,^https://boss\.hdslb\.com/bfs/splash(/.*)?$
+URL-REGEX,^https://boss\.hdslb\.com/bfs/ad(/.*)?$
+URL-REGEX,^https://i1\.hdslb\.com/bfs/sycp_brand(/.*)?$
+URL-REGEX,^https://i1\.hdslb\.com/bfs/sycp/creative_img(/.*)?$
+URL-REGEX,^https://i0\.hdslb\.com/bfs/sycp_brand(/.*)?$
+URL-REGEX,^https://i0\.hdslb\.com/bfs/sycp/creative_img(/.*)?$
 URL-REGEX,^https://ossgw\.alicdn\.com/ad/(/.*)?$
 URL-REGEX,^https://tmall\.com/ad/(/.*)?$
 URL-REGEX,^https://amap\.com/ad/(/.*)?$
