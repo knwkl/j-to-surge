@@ -36,6 +36,7 @@ DOMAIN-WILDCARD,mads*z.com
 DOMAIN-WILDCARD,n*adserv.com
 DOMAIN-WILDCARD,n*adserv.xyz
 DOMAIN-WILDCARD,prod.*.publishers.advertising.a2z.com
+DOMAIN-WILDCARD,tnc*-*.zijieapi.com
 DOMAIN-WILDCARD,*.yfanads.com
 DOMAIN-WILDCARD,*.lingjuad.com
 DOMAIN-WILDCARD,wxsnsdy.*
@@ -77,7 +78,6 @@ DOMAIN-WILDCARD,*-ad.video.yximgs.com*
 DOMAIN-WILDCARD,*-ad.wtzw.com*
 DOMAIN-WILDCARD,*-be-pack-sign.pglstatp-toutiao.com*
 DOMAIN-WILDCARD,*.inkuai.com
-DOMAIN-WILDCARD,*.zztfly.com
 DOMAIN-WILDCARD,*.uyunad.com
 DOMAIN-WILDCARD,*.beacon.com
 DOMAIN-WILDCARD,*.adukwai.com

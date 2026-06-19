@@ -937,7 +937,6 @@ DOMAIN,ins-5776sx9h.ias.tencent-cloud.net
 DOMAIN,m.ad.jd.com
 DOMAIN,ad.jd.com
 DOMAIN,ad.jdfcloud.com
-DOMAIN,zlink.ugsdk.cn.queniuiq.com
 DOMAIN,dgstatic.jd.com
 DOMAIN,loggw-ex.alipay.com
 DOMAIN,iadsdk.qtlcdn.com
@@ -1295,7 +1294,6 @@ DOMAIN,lf-leads-fe-scm.bytecdn.com
 DOMAIN,tj-adc-exposure.wtzw.com
 DOMAIN,bsccdn.net
 DOMAIN,dig.zjurl.cn
-DOMAIN,dig.bdurl.net
 DOMAIN,apps.bytesfield.com
 DOMAIN,pangolin-sdk-toutiao.com
 DOMAIN,pangolin-sdk-toutiao1.com
@@ -1581,6 +1579,11 @@ DOMAIN,adx-ad-prod.wkanx.com
 DOMAIN,fancydsp.oss-cn-beijing.aliyuncs.com
 DOMAIN,cd.yfanads.cn
 DOMAIN,dsp.cdn.gameley.com
+DOMAIN,adn.1rtb.cn
+DOMAIN,dualstack-adiu.amap.com
+DOMAIN,ctrace.sogaha.cn
+DOMAIN,xigua.sogaha.cn
+DOMAIN,adapi.pandabus.cn
 DOMAIN,24h-ad.24hstatic.com
 DOMAIN,24h-ipad-ad.24hstatic.com
 DOMAIN,ad-us.24hstatic.com
