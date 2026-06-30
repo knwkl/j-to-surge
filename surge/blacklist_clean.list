@@ -361,6 +361,8 @@ DOMAIN,getui.com
 DOMAIN,ggx.cmvideo.cn
 DOMAIN,ggx01.miguvideo.com
 DOMAIN,ggx03.miguvideo.com
+DOMAIN,ggx07.miguvideo.com
+DOMAIN,ggx05.miguvideo.com
 DOMAIN,globalapi.ad.xiaomi.com
 DOMAIN,google-analytics.com
 DOMAIN,googleads.g.doubleclick-cn.net
@@ -1584,6 +1586,17 @@ DOMAIN,dualstack-adiu.amap.com
 DOMAIN,ctrace.sogaha.cn
 DOMAIN,xigua.sogaha.cn
 DOMAIN,adapi.pandabus.cn
+DOMAIN,gateway-b.offerwall.unity3d.com
+DOMAIN,api.bidmachine.io
+DOMAIN,sdk.ssp.admobile.top
+DOMAIN,monitor.ssp.admobile.top
+DOMAIN,adsmartget.datads.cn
+DOMAIN,dmsdk-api.dmrtb.com
+DOMAIN,dmsdk-api-ssp.dmrtb.com
+DOMAIN,dmsdk-tracking.dmrtb.com
+DOMAIN,dmugc-cn.domobcdn.com
+DOMAIN,jt-sdk-ios.oss-cn-beijing.aliyuncs.com
+DOMAIN,lf-sourcecdn-tos.bytegecko.com
 DOMAIN,24h-ad.24hstatic.com
 DOMAIN,24h-ipad-ad.24hstatic.com
 DOMAIN,ad-us.24hstatic.com

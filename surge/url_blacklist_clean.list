@@ -132,7 +132,6 @@ URL-REGEX,^https://app\.bilibili\.com/x/v2/feed/coldstart(/.*)?$
 URL-REGEX,^https://api\.bilibili\.com/open(/.*)?$
 URL-REGEX,^https://api\.bilibili\.com/x/v2/dm/exposure(/.*)?$
 URL-REGEX,^https://gaoneng\.bilibili\.com/tetris/page/[^/]*adtype=CPM[^/]*
-URL-REGEX,^https://api\.bilibili\.com/x/push/popup(/.*)?$
 URL-REGEX,^https://im\-x\.jd\.com/dsp/(/.*)?$
 URL-REGEX,^https://grpc\.biliapi\.net/bilibili\.app\.coldstart\.v1\.ColdStart/GetColdStartDeferredData(/.*)?$
 URL-REGEX,^https://app\.bilibili\.com/bilibili\.app\.coldstart\.v1\.ColdStart/GetColdStartDeferredData(/.*)?$
@@ -143,7 +142,6 @@ URL-REGEX,^http://upos\-sz\-mirrorcos\.bilivideo\.com/ssaxcode(/.*)?$
 URL-REGEX,^https://upos\-sz\-staticcos\.bilivideo\.com/ssaxcode(/.*)?$
 URL-REGEX,^https://upos\-sz\-302ppio\.bilivideo\.com/ssaxcode(/.*)?$
 URL-REGEX,^https://upos\-[^/]*\.bilivideo\.com/ssaxcode(/.*)?$
-URL-REGEX,^https://upos\-sz\-staticcos\.bilivideo\.com/appstaticboss(/.*)?$
 URL-REGEX,^https://app\.bilibili\.com/x/v2/splash(/.*)?$
 URL-REGEX,^https://mall\.bilibili\.com/mall\-c\-search/app/config/all(/.*)?$
 URL-REGEX,^https://api\.bilibili\.com/x/vas_ads_open(/.*)?$
@@ -303,6 +301,8 @@ URL-REGEX,^https://download[^/]*\.vzuu\.com/commercial_api/real_time_launch_v2(/
 URL-REGEX,^https://download[^/]*\.vzuu\.com/commercial_api/launch_v2(/.*)?$
 URL-REGEX,^https://vdn[^/]*\.vzuu\.com/commercial_api/launch_v2(/.*)?$
 URL-REGEX,^https://vdn[^/]*\.vzuu\.com/commercial_api/real_time_launch_v2(/.*)?$
+URL-REGEX,^https://vdn[^/]*\.vzuu\.com/hd/ad_bidding_ob(/.*)?$
+URL-REGEX,^https://vdn5\.vzuu\.com/mediacloud/catchingfire/video/[^/]*_ad_[^/]*
 URL-REGEX,^https://api\.weibo\.cn/2/client/launch(/.*)?$
 URL-REGEX,^https://api\.weibo\.cn/[^/]*/ad(/.*)?$
 URL-REGEX,^https://1249900002\-0\.m\.ctrmi\.cn/t/ad2(/.*)?$
@@ -312,6 +312,7 @@ URL-REGEX,^https://vs\.biz\.weibo\.com/sdkserver/brand_monitor(/.*)?$
 URL-REGEX,^https://wbapp\.uve\.weibo\.com/wbapplua/wbpullad\.lua(/.*)?$
 URL-REGEX,^https://api\.weibo\.cn/2/client/get_grayfeature(/.*)?$
 URL-REGEX,^https://weibointl\.api\.weibo\.cn/portal\.php\?a=get_coopen_ads(/.*)?$
+URL-REGEX,^https://api\.weibo\.cn/2/h5/comonitor(/.*)?$
 URL-REGEX,^https://netflow\-reply\-mtop\.cainiao\.com/gw/mtop\.cainiao\.guoguo\.ads(/.*)?$
 URL-REGEX,^https://netflow\-mtop\.cainiao\.com/gw/mtop\.cainiao\.guoguo\.nbnetflow\.ads\.show(/.*)?$
 URL-REGEX,^https://netflow\-reply\-mtop\.cainiao\.com/gw/mtop\.cainiao\.guoguo\.ads\.click\.reply\.cn(/.*)?$
@@ -328,6 +329,9 @@ URL-REGEX,^https://interface3\.music\.163\.com/eapi/delivery/batch\-deliver(/.*)
 URL-REGEX,^https://interface3\.music\.163\.com/eapi/link/position/show/resource(/.*)?$
 URL-REGEX,^https://interface3\.music\.163\.com/eapi/resource\-exposure/activity/config/get(/.*)?$
 URL-REGEX,^https://mc\.tencentmusic\.com/sdk/ad(/.*)?$
+URL-REGEX,^https://music\.y\.qq\.com/maproxy/getpbcompressad(/.*)?$
+URL-REGEX,^https://c[^/]*\.y\.qq\.com/musichall/fcgi\-bin/3g_get_splash\.fcg(/.*)?$
+URL-REGEX,^https://bd\-api\.kuwo\.cn/api/[^/]*/advert/[^/]*
 URL-REGEX,^https://oss\.umetrip\.com/fs/advert(/.*)?$
 URL-REGEX,^https://netflow\-mtop\.cainiao\.com/gw/mtop\.cainiao\.guoguo\.nbnetflow\.ads\.mshow(/.*)?$
 URL-REGEX,^https://netflow\-mtop\.cainiao\.com/gw/mtop\.cainiao\.guoguo\.nbnetflow\.ads\.batch\.show(/.*)?$
@@ -420,6 +424,15 @@ URL-REGEX,^https://mime\.baidu\.com/v2/activity/advertisement(/.*)?$
 URL-REGEX,^https://mobads\.baidu\.com/cpro/ui/mads\.php(/.*)?$
 URL-REGEX,^https://appwk\.baidu\.com/xpage/interface/wknaad(/.*)?$
 URL-REGEX,^https://pan\.baidu\.com/rest/2\.0/membership/advertise/dsp(/.*)?$
+URL-REGEX,^https://pan\.baidu\.com/act/api/activitystatus(/.*)?$
+URL-REGEX,^https://pan\.baidu\.com/api/activity/status(/.*)?$
+URL-REGEX,^https://pan\.baidu\.com/act/v2/uinfo/get(/.*)?$
+URL-REGEX,^https://tiebac\.baidu\.com/c/f/ad/getsplashad(/.*)?$
+URL-REGEX,^https://tiebac\.baidu\.com/c/f/ad/getfeedad(/.*)?$
+URL-REGEX,^https://img\.meituan\.net/adunion/(/.*)?$
+URL-REGEX,^https://tiebac\.baidu\.com/c/s/adlog(/.*)?$
+URL-REGEX,^https://tiebac\.baidu\.com/c/s/adnewlog(/.*)?$
+URL-REGEX,^https://tiebac\.baidu\.com/c/b/ad/adbid(/.*)?$
 URL-REGEX,^https://interface\.music\.163\.com/eapi/ad(/.*)?$
 URL-REGEX,^https://interface\.music\.163\.com/eapi/hot(/.*)?$
 URL-REGEX,^https://interface\.music\.163\.com/eapi/sp(/.*)?$
@@ -433,6 +446,9 @@ URL-REGEX,^https://bd\-api\.kuwo\.cn/api/service/banner/myPage(/.*)?$
 URL-REGEX,^https://bd\-api\.kuwo\.cn/api/play/listening/entrance/music(/.*)?$
 URL-REGEX,^https://bd\-api\.kuwo\.cn/api/service/advert/watch(/.*)?$
 URL-REGEX,^https://h5app\.kuwo\.cn/m/kwtemplatePage/index\.html(/.*)?$
+URL-REGEX,^https://bd\-api\.kuwo\.cn/api/popup/start(/.*)?$
+URL-REGEX,^https://bd\-api\.kuwo\.cn/api/rec/config/toufangarpu(/.*)?$
+URL-REGEX,^https://bd\-api\.kuwo\.cn/api/service/v2/openscreen(/.*)?$
 URL-REGEX,^https://iface\.iqiyi\.com/api/getNewAdInfo(/.*)?$
 URL-REGEX,^https://iface2\.iqiyi\.com/fusion/3\.0/fusion_switch(/.*)?$
 URL-REGEX,^https://act\.vip\.iqiyi\.com/interact/api/show\.do(/.*)?$
@@ -448,6 +464,7 @@ URL-REGEX,^https://pcvideoyd\.titan\.mgtv\.com/pb(/.*)?$
 URL-REGEX,^https://api\.tv\.sohu\.com/agg/api/app/config/bootstrap(/.*)?$
 URL-REGEX,^https://s1\.api\.tv\.itc\.cn/v1/mobile/control/switch\.json(/.*)?$
 URL-REGEX,^https://iyes\.youku\.com/uts/v1/start(/.*)?$
+URL-REGEX,^https://apiv4\-iyes\.youku\.com/uts/v1/start(/.*)?$
 URL-REGEX,^https://api\.gotokeep\.com/ads(/.*)?$
 URL-REGEX,^https://api\.gotokeep\.com/ads/v1/ads/preload(/.*)?$
 URL-REGEX,^https://api\.gotokeep\.com/cauchy/growth/init(/.*)?$

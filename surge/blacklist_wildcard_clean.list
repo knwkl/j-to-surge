@@ -36,6 +36,11 @@ DOMAIN-WILDCARD,mads*z.com
 DOMAIN-WILDCARD,n*adserv.com
 DOMAIN-WILDCARD,n*adserv.xyz
 DOMAIN-WILDCARD,prod.*.publishers.advertising.a2z.com
+DOMAIN-WILDCARD,*.chinaliftoff.io
+DOMAIN-WILDCARD,*.admobile.top
+DOMAIN-WILDCARD,*.admobile.*
+DOMAIN-WILDCARD,ggx*.miguvideo.com
+DOMAIN-WILDCARD,*-0.m.ctrmi.cn
 DOMAIN-WILDCARD,tnc*-*.zijieapi.com
 DOMAIN-WILDCARD,*.yfanads.com
 DOMAIN-WILDCARD,*.lingjuad.com
@@ -154,6 +159,8 @@ DOMAIN-WILDCARD,*.log.mgtv.com
 DOMAIN-WILDCARD,*.aaa.mgtv.com
 DOMAIN-WILDCARD,*.bjmxy.net
 DOMAIN-WILDCARD,*.cjjd14.com
+DOMAIN-WILDCARD,*.ecombdapi.com
+DOMAIN-WILDCARD,*.ecombdimg.com
 DOMAIN-WILDCARD,*.smaato.*
 DOMAIN-WILDCARD,*.statisticslinks.com
 DOMAIN-WILDCARD,pangolin-sdk.*
