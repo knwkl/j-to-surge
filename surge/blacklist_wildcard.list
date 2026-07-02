@@ -36,6 +36,7 @@ DOMAIN-WILDCARD,mads*z.com
 DOMAIN-WILDCARD,n*adserv.com
 DOMAIN-WILDCARD,n*adserv.xyz
 DOMAIN-WILDCARD,prod.*.publishers.advertising.a2z.com
+DOMAIN-WILDCARD,*.takuad.com
 DOMAIN-WILDCARD,*.chinaliftoff.io
 DOMAIN-WILDCARD,*.admobile.top
 DOMAIN-WILDCARD,*.admobile.*

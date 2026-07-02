@@ -69,6 +69,8 @@ URL-REGEX,^https?://[^/]+/splashscreen/(/.*)?$
 URL-REGEX,^https?://[^/]+/opening_ad/(/.*)?$
 URL-REGEX,^https?://[^/]+/welcome_ad/(/.*)?$
 URL-REGEX,^https?://[^/]+/iflyad/deliverysystem/material/(/.*)?$
+URL-REGEX,^https://opapi\.xxghh\.biz/common/comm/dict/getdictitems/leigod_app_openadv(/.*)?$
+URL-REGEX,^https://cad\.kuaicad\.com/cad/query/mobileads(/.*)?$
 URL-REGEX,^https://mp\.weixin\.qq\.com/mp/getappmsgad(/.*)?$
 URL-REGEX,^https://mp\.weixin\.qq\.com/mp/cps_product_info(/.*)?$
 URL-REGEX,^https://mp\.weixin\.qq\.com/mp/advertisement_report(/.*)?$
@@ -281,6 +283,7 @@ URL-REGEX,^https://p1\.meituan\.net/bizad/(/.*)?$
 URL-REGEX,^https://p2\.meituan\.net/bizad/(/.*)?$
 URL-REGEX,^https://acs\.m\.goofish\.com/gw/mtop\.taobao\.idlehome\.home\.nextfresh(/.*)?$
 URL-REGEX,^https://img\.meituan\.net/bizad(/.*)?$
+URL-REGEX,^https://img\.meituan\.net/waimaiad(/.*)?$
 URL-REGEX,^https://wmapi\.meituan\.com/api/v7/startpicture(/.*)?$
 URL-REGEX,^https://s\.qiumibao\.com/activities/material/json\.htm(/.*)?$
 URL-REGEX,^https://a\.qiumibao\.com/ios/config/(/.*)?$
@@ -332,6 +335,7 @@ URL-REGEX,^https://mc\.tencentmusic\.com/sdk/ad(/.*)?$
 URL-REGEX,^https://music\.y\.qq\.com/maproxy/getpbcompressad(/.*)?$
 URL-REGEX,^https://c[^/]*\.y\.qq\.com/musichall/fcgi\-bin/3g_get_splash\.fcg(/.*)?$
 URL-REGEX,^https://bd\-api\.kuwo\.cn/api/[^/]*/advert/[^/]*
+URL-REGEX,^https://bd\-api\.kuwo\.cn/api/popup/start(/.*)?$
 URL-REGEX,^https://oss\.umetrip\.com/fs/advert(/.*)?$
 URL-REGEX,^https://netflow\-mtop\.cainiao\.com/gw/mtop\.cainiao\.guoguo\.nbnetflow\.ads\.mshow(/.*)?$
 URL-REGEX,^https://netflow\-mtop\.cainiao\.com/gw/mtop\.cainiao\.guoguo\.nbnetflow\.ads\.batch\.show(/.*)?$
@@ -446,7 +450,6 @@ URL-REGEX,^https://bd\-api\.kuwo\.cn/api/service/banner/myPage(/.*)?$
 URL-REGEX,^https://bd\-api\.kuwo\.cn/api/play/listening/entrance/music(/.*)?$
 URL-REGEX,^https://bd\-api\.kuwo\.cn/api/service/advert/watch(/.*)?$
 URL-REGEX,^https://h5app\.kuwo\.cn/m/kwtemplatePage/index\.html(/.*)?$
-URL-REGEX,^https://bd\-api\.kuwo\.cn/api/popup/start(/.*)?$
 URL-REGEX,^https://bd\-api\.kuwo\.cn/api/rec/config/toufangarpu(/.*)?$
 URL-REGEX,^https://bd\-api\.kuwo\.cn/api/service/v2/openscreen(/.*)?$
 URL-REGEX,^https://iface\.iqiyi\.com/api/getNewAdInfo(/.*)?$
@@ -683,7 +686,6 @@ URL-REGEX,^https://api\.wfdata\.club/v1/yesfeng/infoCenterAd(/.*)?$
 URL-REGEX,^https://apimobile\.meituan\.com/dsp(/.*)?$
 URL-REGEX,^https://course\.myfriday\.cn/Others/Update/V3/startAdSpace\.action(/.*)?$
 URL-REGEX,^https://pan\.baidu\.com/[^/]*/adx(/.*)?$
-URL-REGEX,^https://pan\.baidu\.com/rest/[^/]*ad(/.*)?$
 URL-REGEX,^https://sns\.amap\.com/ws/activity(/.*)?$
 URL-REGEX,^https://sns\.amap\.com/ws/activity_boost(/.*)?$
 URL-REGEX,^https://apimobile\.meituan\.com/prom/v2(/.*)?$
