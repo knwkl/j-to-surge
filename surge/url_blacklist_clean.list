@@ -69,6 +69,10 @@ URL-REGEX,^https?://[^/]+/splashscreen/(/.*)?$
 URL-REGEX,^https?://[^/]+/opening_ad/(/.*)?$
 URL-REGEX,^https?://[^/]+/welcome_ad/(/.*)?$
 URL-REGEX,^https?://[^/]+/iflyad/deliverysystem/material/(/.*)?$
+URL-REGEX,^https://api\.tencentmusic\.com/get/ads(/.*)?$
+URL-REGEX,^https://c\.tieba\.baidu\.com/c/f/forum/getadinfo(/.*)?$
+URL-REGEX,^https://yximgs\.com/bs2/adcarsku/(/.*)?$
+URL-REGEX,^https://yximgs\.com/bs2/adcarsku/sku1563a96c\-38ca\-4563\-a4b5\-522208113126\.(/.*)?$
 URL-REGEX,^https://opapi\.xxghh\.biz/common/comm/dict/getdictitems/leigod_app_openadv(/.*)?$
 URL-REGEX,^https://cad\.kuaicad\.com/cad/query/mobileads(/.*)?$
 URL-REGEX,^https://mp\.weixin\.qq\.com/mp/getappmsgad(/.*)?$
@@ -124,9 +128,6 @@ URL-REGEX,^https://jt\-sdk\-ios\.oss\-cn\-beijing\.aliyuncs\.com/iosconfig\.txt(
 URL-REGEX,^https://api5\-lq\.qishui\.com/luna/ads/config(/.*)?$
 URL-REGEX,^https://api5\-lq\.qishui\.com/luna/advert(/.*)?$
 URL-REGEX,^https://api5\-lq\.qishui\.com/luna/launch(/.*)?$
-URL-REGEX,^https://api5\-hl\.qishui\.com/luna/ads/config(/.*)?$
-URL-REGEX,^https://api5\-hl\.qishui\.com/luna/advert(/.*)?$
-URL-REGEX,^https://api5\-hl\.qishui\.com/luna/launch(/.*)?$
 URL-REGEX,^https://api3\-hl\.qishui\.com/luna/ads/config(/.*)?$
 URL-REGEX,^https://api3\-hl\.qishui\.com/luna/advert(/.*)?$
 URL-REGEX,^https://api3\-hl\.qishui\.com/luna/launch(/.*)?$
@@ -736,9 +737,11 @@ URL-REGEX,^https://api3\-hl\.qishui\.com/luna/ads/(/.*)?$
 URL-REGEX,^https://api3\-lf\.qishui\.com/luna/ads/(/.*)?$
 URL-REGEX,^https://api3\-lq\.qishui\.com/luna/ads/(/.*)?$
 URL-REGEX,^https://api5\-lf\.qishui\.com/luna/advert(/.*)?$
+URL-REGEX,^https://api5\-hl\.qishui\.com/luna/advert(/.*)?$
 URL-REGEX,^https://api3\-lf\.qishui\.com/luna/advert(/.*)?$
 URL-REGEX,^https://api3\-lq\.qishui\.com/luna/advert(/.*)?$
 URL-REGEX,^https://api5\-lf\.qishui\.com/luna/launch(/.*)?$
+URL-REGEX,^https://api5\-hl\.qishui\.com/luna/launch(/.*)?$
 URL-REGEX,^https://api3\-lf\.qishui\.com/luna/launch(/.*)?$
 URL-REGEX,^https://api3\-lq\.qishui\.com/luna/launch(/.*)?$
 URL-REGEX,^https://api5\-lf\.qishui\.com/luna/media_ads(/.*)?$
