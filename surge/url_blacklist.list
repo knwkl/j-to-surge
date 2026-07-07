@@ -69,6 +69,12 @@ URL-REGEX,^https?://[^/]+/splashscreen/(/.*)?$
 URL-REGEX,^https?://[^/]+/opening_ad/(/.*)?$
 URL-REGEX,^https?://[^/]+/welcome_ad/(/.*)?$
 URL-REGEX,^https?://[^/]+/iflyad/deliverysystem/material/(/.*)?$
+URL-REGEX,^https://splashqqlive\.gtimg\.com/website/(/.*)?$
+URL-REGEX,^https://bla\.gtimg\.com/qqlive/(/.*)?$
+URL-REGEX,^https://imgcache\.qq\.com/qqlive/(/.*)?$
+URL-REGEX,^https://wa\.gtimg\.com/adxcdn/(/.*)?$
+URL-REGEX,^https://[^/]*\.tc\.qq\.com/[^/]*p20[^/]*\.1\.mp4(/.*)?$
+URL-REGEX,^https://[^/]*\.tc\.qq\.com/[^/]*_p20[^/]*_(/.*)?$
 URL-REGEX,^https://api\.tencentmusic\.com/get/ads(/.*)?$
 URL-REGEX,^https://c\.tieba\.baidu\.com/c/f/forum/getadinfo(/.*)?$
 URL-REGEX,^https://yximgs\.com/bs2/adcarsku/(/.*)?$
@@ -306,7 +312,6 @@ URL-REGEX,^https://download[^/]*\.vzuu\.com/commercial_api/launch_v2(/.*)?$
 URL-REGEX,^https://vdn[^/]*\.vzuu\.com/commercial_api/launch_v2(/.*)?$
 URL-REGEX,^https://vdn[^/]*\.vzuu\.com/commercial_api/real_time_launch_v2(/.*)?$
 URL-REGEX,^https://vdn[^/]*\.vzuu\.com/hd/ad_bidding_ob(/.*)?$
-URL-REGEX,^https://vdn5\.vzuu\.com/mediacloud/catchingfire/video/[^/]*_ad_[^/]*
 URL-REGEX,^https://api\.weibo\.cn/2/client/launch(/.*)?$
 URL-REGEX,^https://api\.weibo\.cn/[^/]*/ad(/.*)?$
 URL-REGEX,^https://1249900002\-0\.m\.ctrmi\.cn/t/ad2(/.*)?$
@@ -322,6 +327,8 @@ URL-REGEX,^https://netflow\-mtop\.cainiao\.com/gw/mtop\.cainiao\.guoguo\.nbnetfl
 URL-REGEX,^https://netflow\-reply\-mtop\.cainiao\.com/gw/mtop\.cainiao\.guoguo\.ads\.click\.reply\.cn(/.*)?$
 URL-REGEX,^https://netflow\-reply\-mtop\.cainiao\.com/gw/mtop\.cainiao\.guoguo\.ads\.click\.reply(/.*)?$
 URL-REGEX,^https://mediadata\.api\.weibo\.com/2/multimedia/log(/.*)?$
+URL-REGEX,^https://guide\-acs\.m\.taobao\.com/gw/mtop\.cainiao\.guoguo\.nbnetflow\.ads\.show(/.*)?$
+URL-REGEX,^https://guide\-acs\.m\.taobao\.com/gw/mtop\.ali\.ad(/.*)?$
 URL-REGEX,^https://1244f00001\-0\.m\.ctrmi\.cn/t/ad2(/.*)?$
 URL-REGEX,^https://img3\.doubanio\.com/view/dale\-online/dale_ad(/.*)?$
 URL-REGEX,^https://img1\.doubanio\.com/view/dale\-online/dale_ad(/.*)?$
@@ -685,6 +692,10 @@ URL-REGEX,^https://gn\-web\-assets\.api\.bbc\.com/ngas/latest/dotcom\-ads(/.*)?$
 URL-REGEX,^https://api\.wfdata\.club/v2/yesfeng/infoCenterAd(/.*)?$
 URL-REGEX,^https://api\.wfdata\.club/v1/yesfeng/infoCenterAd(/.*)?$
 URL-REGEX,^https://apimobile\.meituan\.com/dsp(/.*)?$
+URL-REGEX,^https://img\.meituan\.net/[^/]*/bizad/(/.*)?$
+URL-REGEX,^https://p0\.meituan\.net/[^/]*/bizad/(/.*)?$
+URL-REGEX,^https://p1\.meituan\.net/[^/]*/bizad/(/.*)?$
+URL-REGEX,^https://p2\.meituan\.net/[^/]*/bizad/(/.*)?$
 URL-REGEX,^https://course\.myfriday\.cn/Others/Update/V3/startAdSpace\.action(/.*)?$
 URL-REGEX,^https://pan\.baidu\.com/[^/]*/adx(/.*)?$
 URL-REGEX,^https://sns\.amap\.com/ws/activity(/.*)?$
