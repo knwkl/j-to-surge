@@ -840,7 +840,6 @@ DOMAIN,win.gdt.qq.com
 DOMAIN,ws.sj.qq.com
 DOMAIN,wv.inner-active.mobi
 DOMAIN,wwads.cn
-DOMAIN,wxaintpcos.wxqcloud.qq.com.cn
 DOMAIN,wxsnsad.tc.qq.com
 DOMAIN,wxsnsdy.tc.qq.com
 DOMAIN,wxsnsdy.wxs.qq.com
@@ -1641,6 +1640,9 @@ DOMAIN,api.adprod.cn
 DOMAIN,files.adprod.cn
 DOMAIN,splashqqlive.gtimg.com
 DOMAIN,bla.gtimg.com
+DOMAIN,t.funlinkads.com
+DOMAIN,s.funlinkads.com
+DOMAIN,alphas.adxvip.com
 DOMAIN,24h-ad.24hstatic.com
 DOMAIN,24h-ipad-ad.24hstatic.com
 DOMAIN,ad-us.24hstatic.com
@@ -3546,10 +3548,7 @@ DOMAIN,adx-sg-req.bridgeoos.com
 DOMAIN,frontier100-toutiao-lf.fqnovel.com
 DOMAIN,wxsnsdythumb.wxs.qq.com
 DOMAIN,wxsnsdy.video.qq.com
-DOMAIN,wxa.wxs.qq.com
 DOMAIN,wximg.wxs.qq.com
-DOMAIN,wxsmw.wxs.qq.com
-DOMAIN,wxs.qq.com
 DOMAIN,ad.weixin.qq.com
 DOMAIN,as.weixin.qq.com
 DOMAIN,ad.wx.com

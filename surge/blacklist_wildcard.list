@@ -36,6 +36,7 @@ DOMAIN-WILDCARD,mads*z.com
 DOMAIN-WILDCARD,n*adserv.com
 DOMAIN-WILDCARD,n*adserv.xyz
 DOMAIN-WILDCARD,prod.*.publishers.advertising.a2z.com
+DOMAIN-WILDCARD,*.funlinkads.com
 DOMAIN-WILDCARD,ulog*.kwaipros.com
 DOMAIN-WILDCARD,ulog*.kwai-pro.com
 DOMAIN-WILDCARD,ulog.*.kwai-pro.com

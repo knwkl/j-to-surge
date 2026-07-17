@@ -69,6 +69,8 @@ URL-REGEX,^https?://[^/]+/splashscreen/(/.*)?$
 URL-REGEX,^https?://[^/]+/opening_ad/(/.*)?$
 URL-REGEX,^https?://[^/]+/welcome_ad/(/.*)?$
 URL-REGEX,^https?://[^/]+/iflyad/deliverysystem/material/(/.*)?$
+URL-REGEX,^https://openapi\.dvr163\.com/app_adv(/.*)?$
+URL-REGEX,^https://openapi\.dvr163\.com/newappapi/thirdadappapi(/.*)?$
 URL-REGEX,^https://splashqqlive\.gtimg\.com/website/(/.*)?$
 URL-REGEX,^https://bla\.gtimg\.com/qqlive/(/.*)?$
 URL-REGEX,^https://imgcache\.qq\.com/qqlive/(/.*)?$
@@ -109,7 +111,6 @@ URL-REGEX,^https://amap\.com/ad/(/.*)?$
 URL-REGEX,^https://alibaba\.com/ad/(/.*)?$
 URL-REGEX,^https://qwhdcdn\.cmcc\-cs\.cn/prd\-mgcenter(/.*)?$
 URL-REGEX,^https://api\-one\-wscn\.awtmt\.com/apiv1/advertising(/.*)?$
-URL-REGEX,^https://a\.qiumibao\.com/ios/[^/]*ad_target(/.*)?$
 URL-REGEX,^https://m\.ctrip\.com/[^/]*/tripAds(/.*)?$
 URL-REGEX,^https://m\.ctrip\.com/[^/]*/ad(/.*)?$
 URL-REGEX,^https://sh\-gateway\.shihuo\.cn/[^/]*/sh\-adapi(/.*)?$
@@ -163,6 +164,10 @@ URL-REGEX,^https://acs\.m\.goofish\.com/gw/mtop\.taobao\.idlehome\.home\.circle\
 URL-REGEX,^https://ynuf\.aliapp\.org/service/um\.json(/.*)?$
 URL-REGEX,^https://mpaasapi\.mpaas\.cn\-hangzhou\.aliyuncs\.com/mgw\.htm(/.*)?$
 URL-REGEX,^https://mdap\.mpaas\.cn\-hangzhou\.aliyuncs\.com/loggw/logconfig\.do(/.*)?$
+URL-REGEX,^https://wximg\.wxs\.qq\.com/[^/]*/ads[^/]*
+URL-REGEX,^https://wxsmw\.wxs\.qq\.com/[^/]*/ads[^/]*
+URL-REGEX,^https://[^/]*\.wxs\.qq\.com/[^/]*/ads[^/]*
+URL-REGEX,^https://wxapp\.[^/]*\.com/wxapp/advert[^/]*
 URL-REGEX,^https://open\.laiyagushi\.com/ad\-track(/.*)?$
 URL-REGEX,^https://acs\.m\.goofish\.com/gw/mtop\.idle\.idleadv\.app\.launch(/.*)?$
 URL-REGEX,^https://acs\.m\.goofish\.com/gw/mtop\.idle\.ad\.expose(/.*)?$
@@ -290,9 +295,11 @@ URL-REGEX,^https://img\.meituan\.net/bizad(/.*)?$
 URL-REGEX,^https://img\.meituan\.net/waimaiad(/.*)?$
 URL-REGEX,^https://wmapi\.meituan\.com/api/v7/startpicture(/.*)?$
 URL-REGEX,^https://s\.qiumibao\.com/activities/material/json\.htm(/.*)?$
-URL-REGEX,^https://a\.qiumibao\.com/ios/config/(/.*)?$
 URL-REGEX,^https://ggtg\.duoduocdn\.com/ad(/.*)?$
 URL-REGEX,^https://img1\.360buyimg\.com/pop/jfs(/.*)?$
+URL-REGEX,^https://a\.qiumibao\.com/activities/config\.php(/.*)?$
+URL-REGEX,^https://m\.zhibo8\.cc/activities/ios\.php(/.*)?$
+URL-REGEX,^https://m\.zhibo8\.com/activities/ios\.php(/.*)?$
 URL-REGEX,^https://api\.zhihu\.com/commercial_api/launch_v2(/.*)?$
 URL-REGEX,^https://api\.zhihu\.com/commercial_api/real_time_launch_v2(/.*)?$
 URL-REGEX,^https://api\.zhihu\.com/commercial_api(/.*)?$
@@ -319,6 +326,8 @@ URL-REGEX,^https://wbapp\.uve\.weibo\.com/wbapplua/wbpullad\.lua(/.*)?$
 URL-REGEX,^https://api\.weibo\.cn/2/client/get_grayfeature(/.*)?$
 URL-REGEX,^https://weibointl\.api\.weibo\.cn/portal\.php\?a=get_coopen_ads(/.*)?$
 URL-REGEX,^https://api\.weibo\.cn/2/h5/comonitor(/.*)?$
+URL-REGEX,^https://acs\.m\.taobao\.com/gw/mtop\.film\.mtopadvertiseapi(/.*)?$
+URL-REGEX,^https://acs\.m\.taobao\.com/gw/mtop\.film\.independentadvertiseapi(/.*)?$
 URL-REGEX,^https://netflow\-reply\-mtop\.cainiao\.com/gw/mtop\.cainiao\.guoguo\.ads(/.*)?$
 URL-REGEX,^https://netflow\-mtop\.cainiao\.com/gw/mtop\.cainiao\.guoguo\.nbnetflow\.ads\.show(/.*)?$
 URL-REGEX,^https://netflow\-reply\-mtop\.cainiao\.com/gw/mtop\.cainiao\.guoguo\.ads\.click\.reply\.cn(/.*)?$
@@ -336,6 +345,9 @@ URL-REGEX,^https://interface3\.music\.163\.com/eapi/delivery/deliver(/.*)?$
 URL-REGEX,^https://interface3\.music\.163\.com/eapi/delivery/batch\-deliver(/.*)?$
 URL-REGEX,^https://interface3\.music\.163\.com/eapi/link/position/show/resource(/.*)?$
 URL-REGEX,^https://interface3\.music\.163\.com/eapi/resource\-exposure/activity/config/get(/.*)?$
+URL-REGEX,^https://interface3\.music\.163\.com/xeapi/ad(/.*)?$
+URL-REGEX,^https://api\.xiangji\.qq\.com/splash(/.*)?$
+URL-REGEX,^http://api\.sogaha\.cn/ssp/ad/get(/.*)?$
 URL-REGEX,^https://mc\.tencentmusic\.com/sdk/ad(/.*)?$
 URL-REGEX,^https://music\.y\.qq\.com/maproxy/getpbcompressad(/.*)?$
 URL-REGEX,^https://c[^/]*\.y\.qq\.com/musichall/fcgi\-bin/3g_get_splash\.fcg(/.*)?$
@@ -367,7 +379,6 @@ URL-REGEX,^https://gateway\.kugou\.com/ads\.service(/.*)?$
 URL-REGEX,^https://gateway\.kugou\.com/pxy/v1/combo/startup(/.*)?$
 URL-REGEX,^https://gateway\.kugou\.com/youth/v1/ad/(/.*)?$
 URL-REGEX,^https://gateway3\.kugou\.com/ads\.gateway(/.*)?$
-URL-REGEX,^https://[^/]*\.kugou\.com/ads\.gateway(/.*)?$
 URL-REGEX,^https://gatewayretry\.kugou\.com/adp(/.*)?$
 URL-REGEX,^https://gatewayretry\.kugou\.com/vipenergy/v1/free_time_ad(/.*)?$
 URL-REGEX,^https://activity\.kugou\.com/getvips/[^/]*/static/js/@kg_uni\-gdt\-view\-sdk(/.*)?$
@@ -404,9 +415,7 @@ URL-REGEX,^https://qapi\.huolala\.cn/home_new_user(/.*)?$
 URL-REGEX,^https://appuser\-static\.huolala\.cn/imgs(/.*)?$
 URL-REGEX,^https://ccsp\-egmas\.sf\-express\.com/cx\-app\-base/base/app/ad(/.*)?$
 URL-REGEX,^https://shopic\.sf\-express\.com/crm/mobile/common/flashscreen(/.*)?$
-URL-REGEX,^https://ucmp\.sf\-express\.com/proxy/operation\-platform/info\-flow\-adver/query(/.*)?$
 URL-REGEX,^https://hdgateway\.zto\.com/getAdInfo(/.*)?$
-URL-REGEX,^https://hdgateway\.zto\.com/getApolloConfig(/.*)?$
 URL-REGEX,^https://hdgateway\.zto\.com/listJumperShow(/.*)?$
 URL-REGEX,^https://customer\-app\.sto\.cn/api/app/banner/banner(/.*)?$
 URL-REGEX,^https://elemecdn\.com/sitemap(/.*)?$
@@ -616,9 +625,7 @@ URL-REGEX,^https://m\.client\.10010\.com/mobileService/customer/get_startadv(/.*
 URL-REGEX,^https://m\.client\.10010\.com/getDataFromService\?methodType=topAdGet(/.*)?$
 URL-REGEX,^https://m\.client\.10010\.com/uniAdmsInterface/getHomePageAd(/.*)?$
 URL-REGEX,^https://m\.client\.10010\.com/uniAdmsInterface/getWelcomeAd(/.*)?$
-URL-REGEX,^https://clientaccess\.10086\.cn/biz\-orange/DN/init/startInit(/.*)?$
 URL-REGEX,^https://client\.app\.coc\.10086\.cn/biz\-orange/DN/explorePage/getAdverList(/.*)?$
-URL-REGEX,^https://client\.app\.coc\.10086\.cn/biz\-orange/dn/init/startinit(/.*)?$
 URL-REGEX,^https://client\.app\.coc\.10086\.cn/biz\-orange/DN/homepagePopup/(/.*)?$
 URL-REGEX,^https://m\.sd\.10086\.cn/zapi/app_common/homeWelcome/welcome\.do(/.*)?$
 URL-REGEX,^https://adm\.10jqka\.com\.cn/interface/ad/recommend(/.*)?$
