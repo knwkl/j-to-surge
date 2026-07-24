@@ -1,8 +1,16 @@
+DOMAIN,raw.githubusercontent.com
 DOMAIN,skynet.bilivideo.com
 DOMAIN,shark.dianping.com
 DOMAIN,zlink.ugsdk.cn
 DOMAIN,praisewindow.ugsdk.cn
 DOMAIN,mssdk3-normal-lf.zijieapi.com
+DOMAIN,mssdk.zijieapi.com
+DOMAIN,mssdk3-normal-lq.zijieapi.com
+DOMAIN,polaris3-normal-lq.zijieapi.com
+DOMAIN,polaris5-normal-lq.zijieapi.com
+DOMAIN,saveu5-normal-lq.zijieapi.com
+DOMAIN,tnc0-aliec2.zijieapi.com
+DOMAIN,tnc0-alisc1.zijieapi.com
 DOMAIN,static.biligame.net
 DOMAIN,api-mayi.django.t.taobao.com
 DOMAIN,umdc.alibabachengdun.com
@@ -131,7 +139,6 @@ DOMAIN,jsdelivr.net
 DOMAIN,cdn.jsdelivr.net
 DOMAIN,fastly.jsdelivr.net
 DOMAIN,gcore.jsdelivr.net
-DOMAIN,raw.githubusercontent.com
 DOMAIN,github.com
 DOMAIN,githubusercontent.com
 DOMAIN,gitlab.com

@@ -357,7 +357,6 @@ DOMAIN,gdfp.gifshow.com
 DOMAIN,gemini.yahoo.com
 DOMAIN,geo.yahoo.com
 DOMAIN,getui.cn
-DOMAIN,getui.com
 DOMAIN,ggx.cmvideo.cn
 DOMAIN,ggx01.miguvideo.com
 DOMAIN,ggx03.miguvideo.com
@@ -559,7 +558,6 @@ DOMAIN,ms4.applovin.com
 DOMAIN,ms4.applvn.com
 DOMAIN,mssdk.voiceads.cn
 DOMAIN,mssdk.volces.com
-DOMAIN,mssdk.zijieapi.com
 DOMAIN,mtj.baidu.com
 DOMAIN,nadvideo2.baidu.com
 DOMAIN,newvoice.chiq5.smart-tv.cn
@@ -970,7 +968,6 @@ DOMAIN,lf-cdn-tos.bytescm.com.bytedns1.com
 DOMAIN,lf-cdn-tos.bytescm.com.w.kunluncan.com
 DOMAIN,tanx-creative.taobao.com
 DOMAIN,qh-material.taobao.com
-DOMAIN,awp-assets.meituan.net
 DOMAIN,wpt-giant.vip.meituan.com
 DOMAIN,cube.meituan.com
 DOMAIN,prom-sdkv2.jysper.net
@@ -1643,6 +1640,13 @@ DOMAIN,bla.gtimg.com
 DOMAIN,t.funlinkads.com
 DOMAIN,s.funlinkads.com
 DOMAIN,alphas.adxvip.com
+DOMAIN,dreport.meituan.net
+DOMAIN,adgame.waimai.meituan.com
+DOMAIN,meituancdn.cc
+DOMAIN,al-log.dreport.meituan.net
+DOMAIN,route-stats.dreport.meituan.net
+DOMAIN,metrics-picture.dreport.meituan.net
+DOMAIN,data-sdk-uuid-report.dreport.meituan.net
 DOMAIN,24h-ad.24hstatic.com
 DOMAIN,24h-ipad-ad.24hstatic.com
 DOMAIN,ad-us.24hstatic.com

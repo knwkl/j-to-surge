@@ -69,6 +69,12 @@ URL-REGEX,^https?://[^/]+/splashscreen/(/.*)?$
 URL-REGEX,^https?://[^/]+/opening_ad/(/.*)?$
 URL-REGEX,^https?://[^/]+/welcome_ad/(/.*)?$
 URL-REGEX,^https?://[^/]+/iflyad/deliverysystem/material/(/.*)?$
+URL-REGEX,^https://app\.zhuanzhuan\.com/zz/v2/zzlogic/getopenscreen(/.*)?$
+URL-REGEX,^https://ytmsout\.radio\.cn/publish/recScreen/getLoadPage(/.*)?$
+URL-REGEX,^http://mercury\-gateway\.ixiaochuan\.cn/mercury/v1/ad/[^/]*
+URL-REGEX,^https://mercury\-gateway\.ixiaochuan\.cn/mercury/v1/ad/[^/]*
+URL-REGEX,^https://cdn\.wup\.huya\.com/launch/queryHttpDns(/.*)?$
+URL-REGEX,^https://cdnfile1\.msstatic\.com/cdnfile/appad(/.*)?$
 URL-REGEX,^https://openapi\.dvr163\.com/app_adv(/.*)?$
 URL-REGEX,^https://openapi\.dvr163\.com/newappapi/thirdadappapi(/.*)?$
 URL-REGEX,^https://splashqqlive\.gtimg\.com/website/(/.*)?$
@@ -114,7 +120,7 @@ URL-REGEX,^https://api\-one\-wscn\.awtmt\.com/apiv1/advertising(/.*)?$
 URL-REGEX,^https://m\.ctrip\.com/[^/]*/tripAds(/.*)?$
 URL-REGEX,^https://m\.ctrip\.com/[^/]*/ad(/.*)?$
 URL-REGEX,^https://sh\-gateway\.shihuo\.cn/[^/]*/sh\-adapi(/.*)?$
-URL-REGEX,^https://c\.y\.qq\.com/tips/fcgi\-bin/fcg_get_advert(/.*)?$
+URL-REGEX,^https://c[^/]*\.y\.qq\.com/tips/fcgi\-bin/fcg_get_advert(/.*)?$
 URL-REGEX,^https://game\.gtimg\.cn/images/daojushop/uploads/ad(/.*)?$
 URL-REGEX,^https://game\.gtimg\.cn/images/daojushop/zb/ad(/.*)?$
 URL-REGEX,^https://beta\-luna\.douyin\.com/luna/advert(/.*)?$
@@ -293,6 +299,8 @@ URL-REGEX,^https://p2\.meituan\.net/bizad/(/.*)?$
 URL-REGEX,^https://acs\.m\.goofish\.com/gw/mtop\.taobao\.idlehome\.home\.nextfresh(/.*)?$
 URL-REGEX,^https://img\.meituan\.net/bizad(/.*)?$
 URL-REGEX,^https://img\.meituan\.net/waimaiad(/.*)?$
+URL-REGEX,^https://apimobile\.meituan\.com/dsp(/.*)?$
+URL-REGEX,^https://mall\.meituan\.com/api/c/homepage/splash(/.*)?$
 URL-REGEX,^https://wmapi\.meituan\.com/api/v7/startpicture(/.*)?$
 URL-REGEX,^https://s\.qiumibao\.com/activities/material/json\.htm(/.*)?$
 URL-REGEX,^https://ggtg\.duoduocdn\.com/ad(/.*)?$
@@ -300,6 +308,7 @@ URL-REGEX,^https://img1\.360buyimg\.com/pop/jfs(/.*)?$
 URL-REGEX,^https://a\.qiumibao\.com/activities/config\.php(/.*)?$
 URL-REGEX,^https://m\.zhibo8\.cc/activities/ios\.php(/.*)?$
 URL-REGEX,^https://m\.zhibo8\.com/activities/ios\.php(/.*)?$
+URL-REGEX,^https://vdn6\.vzuu\.com/hd/ad_bidding/(/.*)?$
 URL-REGEX,^https://api\.zhihu\.com/commercial_api/launch_v2(/.*)?$
 URL-REGEX,^https://api\.zhihu\.com/commercial_api/real_time_launch_v2(/.*)?$
 URL-REGEX,^https://api\.zhihu\.com/commercial_api(/.*)?$
@@ -333,8 +342,13 @@ URL-REGEX,^https://netflow\-mtop\.cainiao\.com/gw/mtop\.cainiao\.guoguo\.nbnetfl
 URL-REGEX,^https://netflow\-reply\-mtop\.cainiao\.com/gw/mtop\.cainiao\.guoguo\.ads\.click\.reply\.cn(/.*)?$
 URL-REGEX,^https://netflow\-reply\-mtop\.cainiao\.com/gw/mtop\.cainiao\.guoguo\.ads\.click\.reply(/.*)?$
 URL-REGEX,^https://mediadata\.api\.weibo\.com/2/multimedia/log(/.*)?$
-URL-REGEX,^https://guide\-acs\.m\.taobao\.com/gw/mtop\.cainiao\.guoguo\.nbnetflow\.ads\.show(/.*)?$
+URL-REGEX,^https://guide\-acs\.m\.taobao\.com/gw/mtop\.cainiao\.guoguo\.nbnetflow\.ads(/.*)?$
 URL-REGEX,^https://guide\-acs\.m\.taobao\.com/gw/mtop\.ali\.ad(/.*)?$
+URL-REGEX,^https://cn\.alicdn\.com/mcn/cainiao\-score/[^/]*/index\.js(/.*)?$
+URL-REGEX,^https://cn\.alicdn\.com/upload/gede/[^/]*/data\.json(/.*)?$
+URL-REGEX,^https://cn\-acs\.m\.cainiao\.com/gw/mtop\.cainiao\.guoguo\.nbnetflow\.ads\.[^/]*
+URL-REGEX,^https://netflow\-mtop\.cainiao\.com/gw/mtop\.cainiao\.guoguo\.nbnetflow\.ads\.[^/]*
+URL-REGEX,^https://guide\-acs\.m\.taobao\.com/gw/mtop\.cainiao\.guoguo\.nbnetflow\.ads\.[^/]*
 URL-REGEX,^https://1244f00001\-0\.m\.ctrmi\.cn/t/ad2(/.*)?$
 URL-REGEX,^https://img3\.doubanio\.com/view/dale\-online/dale_ad(/.*)?$
 URL-REGEX,^https://img1\.doubanio\.com/view/dale\-online/dale_ad(/.*)?$
@@ -354,7 +368,7 @@ URL-REGEX,^https://c[^/]*\.y\.qq\.com/musichall/fcgi\-bin/3g_get_splash\.fcg(/.*
 URL-REGEX,^https://bd\-api\.kuwo\.cn/api/[^/]*/advert/[^/]*
 URL-REGEX,^https://bd\-api\.kuwo\.cn/api/popup/start(/.*)?$
 URL-REGEX,^https://oss\.umetrip\.com/fs/advert(/.*)?$
-URL-REGEX,^https://netflow\-mtop\.cainiao\.com/gw/mtop\.cainiao\.guoguo\.nbnetflow\.ads\.mshow(/.*)?$
+URL-REGEX,^https://netflow\-mtop\.cainiao\.com/gw/mtop\.cainiao\.guoguo\.nbnetflow\.ads(/.*)?$
 URL-REGEX,^https://netflow\-mtop\.cainiao\.com/gw/mtop\.cainiao\.guoguo\.nbnetflow\.ads\.batch\.show(/.*)?$
 URL-REGEX,^https://netflow\-mtop\.cainiao\.com/gw/mtop\.cainiao\.guoguo\.nbnetflow\.ads\.show\.cn(/.*)?$
 URL-REGEX,^https://netflow\-mtop\.cainiao\.com/gw/mtop\.cainiao\.guoguo\.nbnetflow\.ads\.mshow\.cn(/.*)?$
@@ -364,7 +378,6 @@ URL-REGEX,^https://community\-mtop\.cainiao\.com/gw/mtop\.cainiao\.guoguouser\.l
 URL-REGEX,^https://netflow\-mtop\.cainiao\.com/gw/mtop\.cainiao\.guoguo\.nbnetflow\.ads\.batch\.show\.v2\.cn(/.*)?$
 URL-REGEX,^https://netflow\-mtop\.cainiao\.com/gw/mtop\.cainiao\.guoguo\.nbnetflow\.ads\.show\.cn/1\.0(/.*)?$
 URL-REGEX,^https://netflow\-mtop\.cainiao\.com/gw/mtop\.cainiao\.guoguo\.nbnetflow\.ads\.batch\.show\.v2\.cn/1\.0(/.*)?$
-URL-REGEX,^https://netflow\-reply\-mtop\.cainiao\.com/gw/mtop\.cainiao\.guoguo\.ads\.expose\.mreply\.cn(/.*)?$
 URL-REGEX,^https://contentcenter\-drcn\.dbankcdn\.cn/img/pub_17/pps_realtimeimage_100_1(/.*)?$
 URL-REGEX,^https://acs\.m\.goofish\.com/gw/mtop\.idle\.idleadv\.scene\.restore(/.*)?$
 URL-REGEX,^https://vas\-lf\-x\.snssdk\.com/video/fplay(/.*)?$
@@ -428,6 +441,8 @@ URL-REGEX,^https://sns\.amap\.com/ws/msgbox/pull(/.*)?$
 URL-REGEX,^https://render\-oss\-cdn\.amap\.com/render/studio\-dev/image(/.*)?$
 URL-REGEX,^https://m5\.amap\.com/ws/shield/dsp/app/startup(/.*)?$
 URL-REGEX,^https://m5\.amap\.com/ws/promote/main\-page/assets(/.*)?$
+URL-REGEX,^https://pan\.baidu\.com/api/getconfig(/.*)?$
+URL-REGEX,^https://pan\.baidu\.com/api/getsyscfg(/.*)?$
 URL-REGEX,^https://newclient\.map\.baidu\.com/client/crossmarketing(/.*)?$
 URL-REGEX,^https://newclient\.map\.baidu\.com/client/usersystem/home/dynamic(/.*)?$
 URL-REGEX,^https://newclient\.map\.baidu\.com/client/phpui2/\?qt=ads(/.*)?$
@@ -484,11 +499,7 @@ URL-REGEX,^https://iyes\.youku\.com/uts/v1/start(/.*)?$
 URL-REGEX,^https://apiv4\-iyes\.youku\.com/uts/v1/start(/.*)?$
 URL-REGEX,^https://api\.gotokeep\.com/ads(/.*)?$
 URL-REGEX,^https://api\.gotokeep\.com/ads/v1/ads/preload(/.*)?$
-URL-REGEX,^https://api\.gotokeep\.com/cauchy/growth/init(/.*)?$
-URL-REGEX,^https://api\.gotokeep\.com/cauchy/user/notice/growth/guide(/.*)?$
 URL-REGEX,^https://api\.gotokeep\.com/op\-engine\-webapp/v1/ad(/.*)?$
-URL-REGEX,^https://api\.gotokeep\.com/search/v1/default/keyword/list(/.*)?$
-URL-REGEX,^https://api\.gotokeep\.com/training/box/config(/.*)?$
 URL-REGEX,^https://app\.dewu\.com/api/v1/app/advertisement(/.*)?$
 URL-REGEX,^https://app\.poizon\.com/api/v1/app/advertisement(/.*)?$
 URL-REGEX,^https://home\.mi\.com/cgi\-op/api/v1/recommendation/banner(/.*)?$
@@ -694,7 +705,6 @@ URL-REGEX,^https://pns\.ximalaya\.com/pns\-portal/pns/startUp(/.*)?$
 URL-REGEX,^https://gn\-web\-assets\.api\.bbc\.com/ngas/latest/dotcom\-ads(/.*)?$
 URL-REGEX,^https://api\.wfdata\.club/v2/yesfeng/infoCenterAd(/.*)?$
 URL-REGEX,^https://api\.wfdata\.club/v1/yesfeng/infoCenterAd(/.*)?$
-URL-REGEX,^https://apimobile\.meituan\.com/dsp(/.*)?$
 URL-REGEX,^https://img\.meituan\.net/[^/]*/bizad/(/.*)?$
 URL-REGEX,^https://p0\.meituan\.net/[^/]*/bizad/(/.*)?$
 URL-REGEX,^https://p1\.meituan\.net/[^/]*/bizad/(/.*)?$
