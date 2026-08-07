@@ -91,6 +91,10 @@ DOMAIN,ads3-normal-hl.zijieapi.com
 DOMAIN,ads3-normal-lf.zijieapi.com
 DOMAIN,ads3-normal-lq.zijieapi.com
 DOMAIN,ads3-normal.zijieapi.com
+DOMAIN,ads4-normal-hl.zijieapi.com
+DOMAIN,ads4-normal-lf.zijieapi.com
+DOMAIN,ads4-normal-lq.zijieapi.com
+DOMAIN,ads4-normal.zijieapi.com
 DOMAIN,ads5-normal-hl.zijieapi.com
 DOMAIN,ads5-normal-lf.zijieapi.com
 DOMAIN,ads5-normal-lq.zijieapi.com
@@ -969,7 +973,6 @@ DOMAIN,lf-cdn-tos.bytescm.com.w.kunluncan.com
 DOMAIN,tanx-creative.taobao.com
 DOMAIN,qh-material.taobao.com
 DOMAIN,wpt-giant.vip.meituan.com
-DOMAIN,cube.meituan.com
 DOMAIN,prom-sdkv2.jysper.net
 DOMAIN,marketing-thh.meituan.com
 DOMAIN,analytics.meituan.net
@@ -1450,6 +1453,7 @@ DOMAIN,ad.mcloud.139.com
 DOMAIN,ad.zhuanzhuan.com
 DOMAIN,adserving-oss.bangdao-tech.com
 DOMAIN,v6-novelapp-nxyd.fqnovelvod.com
+DOMAIN,v11-novelapp-nxyd.fqnovelvod.com
 DOMAIN,ad.bczcdn.com
 DOMAIN,ads5-normal-lq.zijieapi.com.c.dsa.cdnbuild.net
 DOMAIN,adsdk.state.duoku.com
@@ -1647,6 +1651,13 @@ DOMAIN,al-log.dreport.meituan.net
 DOMAIN,route-stats.dreport.meituan.net
 DOMAIN,metrics-picture.dreport.meituan.net
 DOMAIN,data-sdk-uuid-report.dreport.meituan.net
+DOMAIN,nbnestcreativecdn.cainiao.com
+DOMAIN,tm.sigmob.cn
+DOMAIN,api.ocpx.ydmob.com
+DOMAIN,api.edimob.com
+DOMAIN,sdk.dcksh.cn
+DOMAIN,adx-svr.1rtb.com
+DOMAIN,s.1rtb.net
 DOMAIN,24h-ad.24hstatic.com
 DOMAIN,24h-ipad-ad.24hstatic.com
 DOMAIN,ad-us.24hstatic.com
@@ -3552,7 +3563,6 @@ DOMAIN,adx-sg-req.bridgeoos.com
 DOMAIN,frontier100-toutiao-lf.fqnovel.com
 DOMAIN,wxsnsdythumb.wxs.qq.com
 DOMAIN,wxsnsdy.video.qq.com
-DOMAIN,wximg.wxs.qq.com
 DOMAIN,ad.weixin.qq.com
 DOMAIN,as.weixin.qq.com
 DOMAIN,ad.wx.com

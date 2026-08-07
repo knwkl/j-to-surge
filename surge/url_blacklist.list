@@ -156,6 +156,7 @@ URL-REGEX,^https://upos\-sz\-staticcos\.bilivideo\.com/ssaxcode(/.*)?$
 URL-REGEX,^https://upos\-sz\-302ppio\.bilivideo\.com/ssaxcode(/.*)?$
 URL-REGEX,^https://upos\-[^/]*\.bilivideo\.com/ssaxcode(/.*)?$
 URL-REGEX,^https://app\.bilibili\.com/x/v2/splash(/.*)?$
+URL-REGEX,^https://grpc\.biliapi\.net/bilibili\.app\.wall\.v1\.Wall/RuleInfo(/.*)?$
 URL-REGEX,^https://mall\.bilibili\.com/mall\-c\-search/app/config/all(/.*)?$
 URL-REGEX,^https://api\.bilibili\.com/x/vas_ads_open(/.*)?$
 URL-REGEX,^https://grpc\.biliapi\.net/bilibili\.app\.viewunite\.v1\.view/playpause(/.*)?$
@@ -397,6 +398,7 @@ URL-REGEX,^https://gatewayretry\.kugou\.com/vipenergy/v1/free_time_ad(/.*)?$
 URL-REGEX,^https://activity\.kugou\.com/getvips/[^/]*/static/js/@kg_uni\-gdt\-view\-sdk(/.*)?$
 URL-REGEX,^https://h5\.kugou\.com/modal/[^/]*/static/js/@kg_gdt\-(/.*)?$
 URL-REGEX,^https://h5\.kugou\.com/modal/[^/]*/static/js/@kg_uni\-gdt\-(/.*)?$
+URL-REGEX,^https://gatewayretry\.kugou\.com/ads\.gateway/v4/mobile_splash(/.*)?$
 URL-REGEX,^https://3pp\.starbucks\.com\.cn/wxmem/index/banner(/.*)?$
 URL-REGEX,^https://3pp\.starbucks\.com\.cn/wxmem/popup(/.*)?$
 URL-REGEX,^https://ad\.maoyan\.com/api/position/detail(/.*)?$
@@ -636,8 +638,6 @@ URL-REGEX,^https://m\.client\.10010\.com/mobileService/customer/get_startadv(/.*
 URL-REGEX,^https://m\.client\.10010\.com/getDataFromService\?methodType=topAdGet(/.*)?$
 URL-REGEX,^https://m\.client\.10010\.com/uniAdmsInterface/getHomePageAd(/.*)?$
 URL-REGEX,^https://m\.client\.10010\.com/uniAdmsInterface/getWelcomeAd(/.*)?$
-URL-REGEX,^https://client\.app\.coc\.10086\.cn/biz\-orange/DN/explorePage/getAdverList(/.*)?$
-URL-REGEX,^https://client\.app\.coc\.10086\.cn/biz\-orange/DN/homepagePopup/(/.*)?$
 URL-REGEX,^https://m\.sd\.10086\.cn/zapi/app_common/homeWelcome/welcome\.do(/.*)?$
 URL-REGEX,^https://adm\.10jqka\.com\.cn/interface/ad/recommend(/.*)?$
 URL-REGEX,^https://ftapi\.10jqka\.com\.cn/futgwapi/api/om/v1/ad/common/transfer(/.*)?$
@@ -729,10 +729,6 @@ URL-REGEX,^https://ggic08\.miguvideo\.com/ad(/.*)?$
 URL-REGEX,^https://ggadoffline\.miguvideo\.com/invalidadunit/(/.*)?$
 URL-REGEX,^https://gginvasdk\.miguvideo\.com/invalidsdk/(/.*)?$
 URL-REGEX,^https://tnc[^/]*\-[^/]*\.zijieapi\.com/get_domains/v[^/]*
-URL-REGEX,^https://beta\-luna\.douyin\.com/luna/me(/.*)?$
-URL-REGEX,^https://api5\-lq\.qishui\.com/luna/me(/.*)?$
-URL-REGEX,^https://beta\-luna\.douyin\.com/luna/feed/song\-tab(/.*)?$
-URL-REGEX,^https://api5\-lq\.qishui\.com/luna/feed/song\-tab(/.*)?$
 URL-REGEX,^https://beta\-luna\.douyin\.com/luna/card(/.*)?$
 URL-REGEX,^https://api5\-lq\.qishui\.com/luna/card(/.*)?$
 URL-REGEX,^https://beta\-luna\.douyin\.com/luna/more\-panel(/.*)?$
@@ -745,8 +741,6 @@ URL-REGEX,^https://beta\-luna\.douyin\.com/luna/ads/(/.*)?$
 URL-REGEX,^https://webcast\-open\.douyin\.com/webcast/openapi/feed/(/.*)?$
 URL-REGEX,^https://beta\-luna\.douyin\.com/luna/treasure/entrance/config(/.*)?$
 URL-REGEX,^https://api5\-lq\.qishui\.com/luna/treasure/entrance/config(/.*)?$
-URL-REGEX,^https://beta\-luna\.douyin\.com/luna/activities(/.*)?$
-URL-REGEX,^https://api5\-lq\.qishui\.com/luna/activities(/.*)?$
 URL-REGEX,^https://beta\-luna\.douyin\.com/luna/media_ads(/.*)?$
 URL-REGEX,^https://api5\-lq\.qishui\.com/luna/media_ads(/.*)?$
 URL-REGEX,^https://beta\-luna\.douyin\.com/luna/commerce/upsells(/.*)?$
