@@ -562,6 +562,7 @@ DOMAIN,ms4.applovin.com
 DOMAIN,ms4.applvn.com
 DOMAIN,mssdk.voiceads.cn
 DOMAIN,mssdk.volces.com
+DOMAIN,mssdk.zijieapi.com
 DOMAIN,mtj.baidu.com
 DOMAIN,nadvideo2.baidu.com
 DOMAIN,newvoice.chiq5.smart-tv.cn
@@ -1658,6 +1659,13 @@ DOMAIN,api.edimob.com
 DOMAIN,sdk.dcksh.cn
 DOMAIN,adx-svr.1rtb.com
 DOMAIN,s.1rtb.net
+DOMAIN,e-stat.huya.com
+DOMAIN,live-ads.huya.com
+DOMAIN,iadmatvideo.nosdn.127.net
+DOMAIN,iadmusicmat.music.163.com
+DOMAIN,adweb.ximalaya.com
+DOMAIN,linkeye.ximalaya.com
+DOMAIN,adapi.ximalaya.com
 DOMAIN,24h-ad.24hstatic.com
 DOMAIN,24h-ipad-ad.24hstatic.com
 DOMAIN,ad-us.24hstatic.com

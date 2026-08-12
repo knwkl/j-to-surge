@@ -14,6 +14,10 @@ DOMAIN-WILDCARD,ad-*file.myqcloud.com
 DOMAIN-WILDCARD,*-ad.adbkwai.com
 DOMAIN-WILDCARD,*-ad.gskwai.com
 DOMAIN-WILDCARD,*-ad.adukwai.com
+DOMAIN-WILDCARD,v*-ad.ixigua.com
+DOMAIN-WILDCARD,v*-dc-ad.ixigua.com
+DOMAIN-WILDCARD,mon*-misc.fqnovel.com
+DOMAIN-WILDCARD,*log*-applog*.fqnovel.com
 DOMAIN-WILDCARD,admicro*.vcmedia.vn
 DOMAIN-WILDCARD,log-*.zadn.vn
 DOMAIN-WILDCARD,ad-host-backup-*.*.aliyuncs.com
