@@ -18,6 +18,8 @@ DOMAIN-WILDCARD,v*-ad.ixigua.com
 DOMAIN-WILDCARD,v*-dc-ad.ixigua.com
 DOMAIN-WILDCARD,mon*-misc.fqnovel.com
 DOMAIN-WILDCARD,*log*-applog*.fqnovel.com
+DOMAIN-WILDCARD,*-be-pack-sign.pglstatp-toutiao.com
+DOMAIN-WILDCARD,dm-*.toutiao.com
 DOMAIN-WILDCARD,admicro*.vcmedia.vn
 DOMAIN-WILDCARD,log-*.zadn.vn
 DOMAIN-WILDCARD,ad-host-backup-*.*.aliyuncs.com

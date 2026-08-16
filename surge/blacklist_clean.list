@@ -843,6 +843,9 @@ DOMAIN,win.gdt.qq.com
 DOMAIN,ws.sj.qq.com
 DOMAIN,wv.inner-active.mobi
 DOMAIN,wwads.cn
+DOMAIN,wximg.wxs.qq.com
+DOMAIN,wxsmw.wxs.qq.com
+DOMAIN,finderad.video.qq.com
 DOMAIN,wxsnsad.tc.qq.com
 DOMAIN,wxsnsdy.tc.qq.com
 DOMAIN,wxsnsdy.wxs.qq.com
@@ -1005,6 +1008,7 @@ DOMAIN,gatherer.m.qq.com
 DOMAIN,orange-dc.m.taobao.com
 DOMAIN,atoken.m.taobao.com
 DOMAIN,goofish.mtop.tengine.ingress.alibabacorp.com.gds.alibabadns.com
+DOMAIN,i.snssdk.com
 DOMAIN,lf.snssdk.com
 DOMAIN,sdk-track.66mobi.com
 DOMAIN,inner.shunchangzhixing.com
@@ -1666,6 +1670,10 @@ DOMAIN,iadmusicmat.music.163.com
 DOMAIN,adweb.ximalaya.com
 DOMAIN,linkeye.ximalaya.com
 DOMAIN,adapi.ximalaya.com
+DOMAIN,h-adashx4id.ut.taobao.com
+DOMAIN,p3-ad-sign.byteimg.com
+DOMAIN,p6-ad-sign.byteimg.com
+DOMAIN,p9-ad-sign.byteimg.com
 DOMAIN,24h-ad.24hstatic.com
 DOMAIN,24h-ipad-ad.24hstatic.com
 DOMAIN,ad-us.24hstatic.com

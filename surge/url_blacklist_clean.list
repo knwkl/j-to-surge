@@ -69,6 +69,9 @@ URL-REGEX,^https?://[^/]+/splashscreen/(/.*)?$
 URL-REGEX,^https?://[^/]+/opening_ad/(/.*)?$
 URL-REGEX,^https?://[^/]+/welcome_ad/(/.*)?$
 URL-REGEX,^https?://[^/]+/iflyad/deliverysystem/material/(/.*)?$
+URL-REGEX,^https://i\-lq\.snssdk\.com/api/ad/[^/]*
+URL-REGEX,^https://i\-hl\.snssdk\.com/api/ad/[^/]*
+URL-REGEX,^https://reading\-hl\.snssdk\.com/api/ad/[^/]*
 URL-REGEX,^https://huyaimg\.msstatic\.com/cdnimage/roomad(/.*)?$
 URL-REGEX,^https://mp\.weixin\.qq\.com/mp/getappmsgad(/.*)?$
 URL-REGEX,^https://mp\.weixin\.qq\.com/mp/ad_biz_info\?__biz=(/.*)?$
@@ -77,10 +80,6 @@ URL-REGEX,^https://[^/]*\.wxs\.qq\.com/[^/]*/ads[^/]*
 URL-REGEX,^https://wxs\-weixin\.sd\.zhumanggroup\.com/api/v2/ad(/.*)?$
 URL-REGEX,^https://hkj178\.com/wp\-json/mp/v2/advert/wechat(/.*)?$
 URL-REGEX,^https://i\.snssdk\.com/api/ad/[^/]*
-URL-REGEX,^https://i\-lq\.snssdk\.com/api/ad/[^/]*
-URL-REGEX,^https://i\-hl\.snssdk\.com/api/ad/[^/]*
-URL-REGEX,^https://reading\-hl\.snssdk\.com/api/ad/[^/]*
-URL-REGEX,^https://[^/]*\.pstatp\.com/obj/mosaic\-legacy/[^/]*\?from=ad[^/]*
 URL-REGEX,^https://app\.zhuanzhuan\.com/zz/v2/zzlogic/getopenscreen(/.*)?$
 URL-REGEX,^https://ytmsout\.radio\.cn/publish/recScreen/getLoadPage(/.*)?$
 URL-REGEX,^http://mercury\-gateway\.ixiaochuan\.cn/mercury/v1/ad/[^/]*
@@ -122,6 +121,10 @@ URL-REGEX,^https://ossgw\.alicdn\.com/ad/(/.*)?$
 URL-REGEX,^https://tmall\.com/ad/(/.*)?$
 URL-REGEX,^https://amap\.com/ad/(/.*)?$
 URL-REGEX,^https://alibaba\.com/ad/(/.*)?$
+URL-REGEX,^https://m5\.amap\.com/ws/asa/ads(/.*)?$
+URL-REGEX,^https://acs\.m\.taobao\.com/gw/mtop\.alimama\.abyss\.unionpage\.get(/.*)?$
+URL-REGEX,^https://acs\.m\.taobao\.com/gw/mtop\.cainiao\.adx\.flyad\.getad(/.*)?$
+URL-REGEX,^https://netflow\-reply\-mtop\.cainiao\.com/gw/mtop\.cainiao\.nbcps\.presentation\.fetch\.cn(/.*)?$
 URL-REGEX,^https://qwhdcdn\.cmcc\-cs\.cn/prd\-mgcenter(/.*)?$
 URL-REGEX,^https://api\-one\-wscn\.awtmt\.com/apiv1/advertising(/.*)?$
 URL-REGEX,^https://m\.ctrip\.com/[^/]*/tripAds(/.*)?$
@@ -188,6 +191,7 @@ URL-REGEX,^https://acs\.m\.goofish\.com/gw/mtop\.taobao\.idle\.rule\.config(/.*)
 URL-REGEX,^https://acs\.m\.goofish\.com/gw/mtop\.taobao\.baichuan\.afc\.get(/.*)?$
 URL-REGEX,^https://acs\.m\.taobao\.com/gw/mtop\.taobao\.baichuan\.afc\.linkinforapidly(/.*)?$
 URL-REGEX,^https://acs\.m\.taobao\.com/gw/mtop\.idle\.idleadv\.app\.launch\.report(/.*)?$
+URL-REGEX,^https://acs\.m\.taobao\.com/gw/mtop\.common\.gettimestamp(/.*)?$
 URL-REGEX,^https://mdike\.alicdn\.com/12431167\-1709694392483\-0\.json(/.*)?$
 URL-REGEX,^https://acs\.m\.taobao\.com/gw/mtop\.taobao\.wireless\.home\.splash(/.*)?$
 URL-REGEX,^https://acs\.m\.taobao\.com/gw/mtop\.alimarket\.splash(/.*)?$
@@ -447,11 +451,14 @@ URL-REGEX,^https://wmapi\.meituan\.com/api/v7/loadInfo(/.*)?$
 URL-REGEX,^https://peisongapi\.meituan\.com/client/getInitiateImage(/.*)?$
 URL-REGEX,^https://amap\-aos\-info\-nogw\.amap\.com/ws/aos/alimama/splash_screen(/.*)?$
 URL-REGEX,^https://amap\-aos\-info\-nogw\.amap\.com/ws/aos/alimama(/.*)?$
-URL-REGEX,^https://m5\.amap\.com/ws/valueadded(/.*)?$
 URL-REGEX,^https://sns\.amap\.com/ws/msgbox/pull(/.*)?$
 URL-REGEX,^https://render\-oss\-cdn\.amap\.com/render/studio\-dev/image(/.*)?$
 URL-REGEX,^https://m5\.amap\.com/ws/shield/dsp/app/startup(/.*)?$
+URL-REGEX,^https://m5\.amap\.com/ws/aos/alimama(/.*)?$
 URL-REGEX,^https://m5\.amap\.com/ws/promote/main\-page/assets(/.*)?$
+URL-REGEX,^https://m5\.amap\.com/ws/valueadded/alimama/splash_screen(/.*)?$
+URL-REGEX,^https://m5\.amap\.com/ws/shield/dsp/profile/index/nodefaas(/.*)?$
+URL-REGEX,^https://[^/]*\.cainiao\.com/gw/mtop\.cainiao\.guoguo\.nbnetflow\.ads(/.*)?$
 URL-REGEX,^https://pan\.baidu\.com/api/getconfig(/.*)?$
 URL-REGEX,^https://pan\.baidu\.com/api/getsyscfg(/.*)?$
 URL-REGEX,^https://newclient\.map\.baidu\.com/client/crossmarketing(/.*)?$
@@ -656,7 +663,6 @@ URL-REGEX,^https://bbs\-api\.miyoushe\.com/apihub/api/getAppSplash(/.*)?$
 URL-REGEX,^https://gameapi\.hellobike\.com/api(/.*)?$
 URL-REGEX,^https://cap\.caocaokeji\.cn/advert\-bss(/.*)?$
 URL-REGEX,^https://minicap\.caocaokeji\.cn/advert\-bss/pullAdvert(/.*)?$
-URL-REGEX,^https://passenger\.t3go\.cn/passenger\-activity\-api/notoken/api/v1/resource/getSource(/.*)?$
 URL-REGEX,^https://gw\-passenger\-wap\.01zhuanche\.com/gw\-passenger\-wap/zhuanche\-passenger\-token/commonSkipToken/common/getAdList(/.*)?$
 URL-REGEX,^https://gw\-passenger\.01zhuanche\.com/gw\-passenger/zhuanche\-passengerController/notk/passenger/recommendADs(/.*)?$
 URL-REGEX,^https://news\.ssp\.qq\.com/app(/.*)?$
