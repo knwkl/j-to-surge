@@ -1,3 +1,5 @@
+DOMAIN-WILDCARD,cm-10-*.getui.com
+DOMAIN-WILDCARD,cmyd-10-*.getui.com
 DOMAIN-WILDCARD,*.duolingo.com
 DOMAIN-WILDCARD,*.icloud.com
 DOMAIN-WILDCARD,*.gcloudcs.com

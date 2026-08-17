@@ -1021,7 +1021,6 @@ DOMAIN,access.toggle.qq.com
 DOMAIN,jsb.zijieapi.com
 DOMAIN,gatherer.m.qq.com
 DOMAIN,orange-dc.m.taobao.com
-DOMAIN,atoken.m.taobao.com
 DOMAIN,goofish.mtop.tengine.ingress.alibabacorp.com.gds.alibabadns.com
 DOMAIN,i.snssdk.com
 DOMAIN,lf.snssdk.com
@@ -1703,6 +1702,12 @@ DOMAIN,h-adashx4id.ut.taobao.com
 DOMAIN,p3-ad-sign.byteimg.com
 DOMAIN,p6-ad-sign.byteimg.com
 DOMAIN,p9-ad-sign.byteimg.com
+DOMAIN,dspad.51wnl-cq.com
+DOMAIN,df.tanx.com
+DOMAIN,tmeadbak.y.qq.com
+DOMAIN,yfan-dsp.tos-cn-shanghai.volces.com
+DOMAIN,cdn.51tuiyi.com
+DOMAIN,api.sogaha.cn
 DOMAIN,24h-ad.24hstatic.com
 DOMAIN,24h-ipad-ad.24hstatic.com
 DOMAIN,ad-us.24hstatic.com

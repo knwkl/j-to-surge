@@ -125,6 +125,9 @@ URL-REGEX,^https://m5\.amap\.com/ws/asa/ads(/.*)?$
 URL-REGEX,^https://acs\.m\.taobao\.com/gw/mtop\.alimama\.abyss\.unionpage\.get(/.*)?$
 URL-REGEX,^https://acs\.m\.taobao\.com/gw/mtop\.cainiao\.adx\.flyad\.getad(/.*)?$
 URL-REGEX,^https://netflow\-reply\-mtop\.cainiao\.com/gw/mtop\.cainiao\.nbcps\.presentation\.fetch\.cn(/.*)?$
+URL-REGEX,^https://m5\.amap\.com/ws/faas/amap\-navigation/main\-page\-assets(/.*)?$
+URL-REGEX,^https://m5\.amap\.com/ws/shield/search_poi/tips_adv(/.*)?$
+URL-REGEX,^https://m5\.amap\.com/ws/feature/preheat/bootevent(/.*)?$
 URL-REGEX,^https://qwhdcdn\.cmcc\-cs\.cn/prd\-mgcenter(/.*)?$
 URL-REGEX,^https://api\-one\-wscn\.awtmt\.com/apiv1/advertising(/.*)?$
 URL-REGEX,^https://m\.ctrip\.com/[^/]*/tripAds(/.*)?$
@@ -382,6 +385,8 @@ URL-REGEX,^https://music\.y\.qq\.com/maproxy/getpbcompressad(/.*)?$
 URL-REGEX,^https://c[^/]*\.y\.qq\.com/musichall/fcgi\-bin/3g_get_splash\.fcg(/.*)?$
 URL-REGEX,^https://bd\-api\.kuwo\.cn/api/[^/]*/advert/[^/]*
 URL-REGEX,^https://bd\-api\.kuwo\.cn/api/popup/start(/.*)?$
+URL-REGEX,^https://y\.gtimg\.cn/music/common/upload/t_splash_info(/.*)?$
+URL-REGEX,^https://y\.gtimg\.cn/music/common/upload/targeted_ads(/.*)?$
 URL-REGEX,^https://oss\.umetrip\.com/fs/advert(/.*)?$
 URL-REGEX,^https://netflow\-mtop\.cainiao\.com/gw/mtop\.cainiao\.guoguo\.nbnetflow\.ads(/.*)?$
 URL-REGEX,^https://netflow\-mtop\.cainiao\.com/gw/mtop\.cainiao\.guoguo\.nbnetflow\.ads\.batch\.show(/.*)?$
@@ -569,6 +574,7 @@ URL-REGEX,^https://api\.douban\.com/v2/app_ads/splash(/.*)?$
 URL-REGEX,^https://api\.douban\.com/v2/app_ads/splash_show(/.*)?$
 URL-REGEX,^https://api\.douban\.com/v2/app_ads/splash_preload(/.*)?$
 URL-REGEX,^https://goblin\.hupu\.com/interfaceAd/getOther(/.*)?$
+URL-REGEX,^https://api\.xiachufang\.com/v[^/]*/ad/(/.*)?$
 URL-REGEX,^https://api\.zhuishushenqi\.com/advert(/.*)?$
 URL-REGEX,^https://api\.zhuishushenqi\.com/splashes/ios(/.*)?$
 URL-REGEX,^https://b\.zhuishushenqi\.com/advert(/.*)?$
