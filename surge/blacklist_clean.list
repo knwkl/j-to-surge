@@ -1091,7 +1091,6 @@ DOMAIN,gwm.taobao.com
 DOMAIN,i.qchannel03.cn
 DOMAIN,image.uczzd.cn
 DOMAIN,inews.gtimg.com.sched.legopic2-dk.tdnsv6.com
-DOMAIN,ios.rqd.qq.com
 DOMAIN,live-ad.jd.com
 DOMAIN,log.mmstat.com
 DOMAIN,log.p3-sign.douyinpic.com
@@ -1679,6 +1678,12 @@ DOMAIN,tmeadbak.y.qq.com
 DOMAIN,yfan-dsp.tos-cn-shanghai.volces.com
 DOMAIN,cdn.51tuiyi.com
 DOMAIN,api.sogaha.cn
+DOMAIN,creative.bxsnews.com
+DOMAIN,adx.babytree.com
+DOMAIN,adx.yg84.com
+DOMAIN,ssp.yg84.com
+DOMAIN,i-lq.snssdk.com
+DOMAIN,i-hl.snssdk.com
 DOMAIN,24h-ad.24hstatic.com
 DOMAIN,24h-ipad-ad.24hstatic.com
 DOMAIN,ad-us.24hstatic.com

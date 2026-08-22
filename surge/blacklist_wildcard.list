@@ -20,6 +20,12 @@ DOMAIN-WILDCARD,mon*-misc.fqnovel.com
 DOMAIN-WILDCARD,*log*-applog*.fqnovel.com
 DOMAIN-WILDCARD,*-be-pack-sign.pglstatp-toutiao.com
 DOMAIN-WILDCARD,dm-*.toutiao.com
+DOMAIN-WILDCARD,*.shturl.cc
+DOMAIN-WILDCARD,*.pangle.io
+DOMAIN-WILDCARD,*.toutiaoad.com
+DOMAIN-WILDCARD,*.gdt.qq.com
+DOMAIN-WILDCARD,*.pgdt.gtimg.cn
+DOMAIN-WILDCARD,adx.*.com
 DOMAIN-WILDCARD,admicro*.vcmedia.vn
 DOMAIN-WILDCARD,log-*.zadn.vn
 DOMAIN-WILDCARD,ad-host-backup-*.*.aliyuncs.com
@@ -137,7 +143,6 @@ DOMAIN-WILDCARD,*.miaozhen.*
 DOMAIN-WILDCARD,*.ad.alibabacorp.*
 DOMAIN-WILDCARD,*.tianmu.*
 DOMAIN-WILDCARD,*.yingt.asia
-DOMAIN-WILDCARD,*.gdt.qq.com
 DOMAIN-WILDCARD,*.ad.tengine.*
 DOMAIN-WILDCARD,tao.ad.cn.*
 DOMAIN-WILDCARD,h-adashx.ut.*
