@@ -69,6 +69,8 @@ URL-REGEX,^https?://[^/]+/splashscreen/(/.*)?$
 URL-REGEX,^https?://[^/]+/opening_ad/(/.*)?$
 URL-REGEX,^https?://[^/]+/welcome_ad/(/.*)?$
 URL-REGEX,^https?://[^/]+/iflyad/deliverysystem/material/(/.*)?$
+URL-REGEX,^https://inner\.hzzfcm\.com/ad(/.*)?$
+URL-REGEX,^https://inner\.hzzfcm\.com/ad2(/.*)?$
 URL-REGEX,^https://api\.babytree\.com/api/mobile_activity/screen(/.*)?$
 URL-REGEX,^https://go\.babytree\.com/go_adplat/api/ad(/.*)?$
 URL-REGEX,^https://go\.babytree\.com/go_pregnancy/api/index_activity/get_app_index_activity(/.*)?$
