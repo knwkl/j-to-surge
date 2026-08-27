@@ -26,6 +26,8 @@ DOMAIN-WILDCARD,*.toutiaoad.com
 DOMAIN-WILDCARD,*.gdt.qq.com
 DOMAIN-WILDCARD,*.pgdt.gtimg.cn
 DOMAIN-WILDCARD,adx.*.com
+DOMAIN-WILDCARD,pangolin*
+DOMAIN-WILDCARD,jad-api.*.com
 DOMAIN-WILDCARD,admicro*.vcmedia.vn
 DOMAIN-WILDCARD,log-*.zadn.vn
 DOMAIN-WILDCARD,ad-host-backup-*.*.aliyuncs.com
@@ -189,7 +191,7 @@ DOMAIN-WILDCARD,*.cjjd14.com
 DOMAIN-WILDCARD,*.smaato.*
 DOMAIN-WILDCARD,*.statisticslinks.com
 DOMAIN-WILDCARD,pangolin-sdk.*
-DOMAIN-WILDCARD,pangolin-sdk-toutiao.*/
+DOMAIN-WILDCARD,pangolin-sdk-toutiao.*
 DOMAIN-WILDCARD,pangolin-sdk-toutiao1.*
 DOMAIN-WILDCARD,pglstatp-toutiao.*
 DOMAIN-WILDCARD,ads*-normal.amemv.com

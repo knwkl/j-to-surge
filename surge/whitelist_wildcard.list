@@ -18,9 +18,6 @@ DOMAIN-WILDCARD,*.github.com
 DOMAIN-WILDCARD,*.githubusercontent.com
 DOMAIN-WILDCARD,*.shouji.sougou.com
 DOMAIN-WILDCARD,*.queniucf.com
-DOMAIN-WILDCARD,*.queniuiq.com
-DOMAIN-WILDCARD,*.queniusz.com
-DOMAIN-WILDCARD,*.queniubh.com
 DOMAIN-WILDCARD,*.wscdns.com
 DOMAIN-WILDCARD,*.wswebcdn.com
 DOMAIN-WILDCARD,*.wsdvs.com
