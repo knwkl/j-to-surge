@@ -69,6 +69,11 @@ URL-REGEX,^https?://[^/]+/splashscreen/(/.*)?$
 URL-REGEX,^https?://[^/]+/opening_ad/(/.*)?$
 URL-REGEX,^https?://[^/]+/welcome_ad/(/.*)?$
 URL-REGEX,^https?://[^/]+/iflyad/deliverysystem/material/(/.*)?$
+URL-REGEX,^https://mbank\.bankofbbg\.com/newapp/api/precisionMarketing/getAds(/.*)?$
+URL-REGEX,^https://api\.yunxish\.com/v5/json(/.*)?$
+URL-REGEX,^https://www\.cls\.cn/v2/web/ad(/.*)?$
+URL-REGEX,^https://api3\.cls\.cn/v2/web/ad(/.*)?$
+URL-REGEX,^https://m\.meitun\.com/newapi/router/cms/advertise(/.*)?$
 URL-REGEX,^https://api\.dongdianqiu\.com/[^/]*/startup/app/config/launch(/.*)?$
 URL-REGEX,^https://voc\.dongdianqiu\.com/app/adconfig(/.*)?$
 URL-REGEX,^https://cjjl\.chelun\.com/sys/adcontrol(/.*)?$
@@ -174,7 +179,6 @@ URL-REGEX,^https://m5\-x\.amap\.com/ws/faas/amap\-navigation/main\-page\-assets(
 URL-REGEX,^https://m5\-x\.amap\.com/ws/shield/search_poi/tips_adv(/.*)?$
 URL-REGEX,^https://m5\-x\.amap\.com/ws/feature/preheat/bootevent(/.*)?$
 URL-REGEX,^https://m5\.amap\.com/ws/shield/scene/recommend(/.*)?$
-URL-REGEX,^https://qwhdcdn\.cmcc\-cs\.cn/prd\-mgcenter(/.*)?$
 URL-REGEX,^https://api\-one\-wscn\.awtmt\.com/apiv1/advertising(/.*)?$
 URL-REGEX,^https://m\.ctrip\.com/[^/]*/tripAds(/.*)?$
 URL-REGEX,^https://m\.ctrip\.com/[^/]*/ad(/.*)?$
@@ -725,7 +729,6 @@ URL-REGEX,^https://m\.client\.10010\.com/mobileService/customer/get_startadv(/.*
 URL-REGEX,^https://m\.client\.10010\.com/getDataFromService\?methodType=topAdGet(/.*)?$
 URL-REGEX,^https://m\.client\.10010\.com/uniAdmsInterface/getHomePageAd(/.*)?$
 URL-REGEX,^https://m\.client\.10010\.com/uniAdmsInterface/getWelcomeAd(/.*)?$
-URL-REGEX,^https://res\.app\.coc\.10086\.cn/qwhdcdn_cmcc\-cs_cn/prd\-mgcenter(/.*)?$
 URL-REGEX,^https://m\.sd\.10086\.cn/zapi/app_common/homeWelcome/welcome\.do(/.*)?$
 URL-REGEX,^https://adm\.10jqka\.com\.cn/interface/ad/recommend(/.*)?$
 URL-REGEX,^https://ftapi\.10jqka\.com\.cn/futgwapi/api/om/v1/ad/common/transfer(/.*)?$

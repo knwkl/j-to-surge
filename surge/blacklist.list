@@ -853,7 +853,6 @@ DOMAIN,win.gdt.qq.com
 DOMAIN,ws.sj.qq.com
 DOMAIN,wv.inner-active.mobi
 DOMAIN,wwads.cn
-DOMAIN,wximg.wxs.qq.com
 DOMAIN,wxsmw.wxs.qq.com
 DOMAIN,finderad.video.qq.com
 DOMAIN,wxsnsad.tc.qq.com
@@ -1726,6 +1725,7 @@ DOMAIN,tnc16-alisg.isnssdk.com
 DOMAIN,tnc16-useast1a.isnssdk.com
 DOMAIN,smartbidx.adx.cn
 DOMAIN,dsp-tos.mongac.com
+DOMAIN,union.gdtimg.com
 DOMAIN,24h-ad.24hstatic.com
 DOMAIN,24h-ipad-ad.24hstatic.com
 DOMAIN,ad-us.24hstatic.com
