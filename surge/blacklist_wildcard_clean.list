@@ -28,6 +28,7 @@ DOMAIN-WILDCARD,*.pgdt.gtimg.cn
 DOMAIN-WILDCARD,adx.*.com
 DOMAIN-WILDCARD,pangolin*
 DOMAIN-WILDCARD,jad-api.*.com
+DOMAIN-WILDCARD,c-hzgt*.getui.com
 DOMAIN-WILDCARD,admicro*.vcmedia.vn
 DOMAIN-WILDCARD,log-*.zadn.vn
 DOMAIN-WILDCARD,ad-host-backup-*.*.aliyuncs.com
