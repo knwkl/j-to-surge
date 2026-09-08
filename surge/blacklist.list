@@ -853,6 +853,7 @@ DOMAIN,win.gdt.qq.com
 DOMAIN,ws.sj.qq.com
 DOMAIN,wv.inner-active.mobi
 DOMAIN,wwads.cn
+DOMAIN,wxa.wxs.qq.com
 DOMAIN,wximg.wxs.qq.com
 DOMAIN,wxsmw.wxs.qq.com
 DOMAIN,finderad.video.qq.com
@@ -1736,6 +1737,9 @@ DOMAIN,xj-landing.gdtimg.com
 DOMAIN,adstextview.qq.com
 DOMAIN,op.ssp.qq.com
 DOMAIN,x.adnet.qq.com
+DOMAIN,inner-empty.shunchangzhixing.com
+DOMAIN,api-dsp.8ziben.com
+DOMAIN,dsp.edm.weibo.cn
 DOMAIN,24h-ad.24hstatic.com
 DOMAIN,24h-ipad-ad.24hstatic.com
 DOMAIN,ad-us.24hstatic.com
