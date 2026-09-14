@@ -30,6 +30,7 @@ DOMAIN-WILDCARD,adx.*.com
 DOMAIN-WILDCARD,pangolin*
 DOMAIN-WILDCARD,jad-api.*.com
 DOMAIN-WILDCARD,c-hzgt*.getui.com
+DOMAIN-WILDCARD,v*-dcar-ad.dcarvod.com
 DOMAIN-WILDCARD,admicro*.vcmedia.vn
 DOMAIN-WILDCARD,log-*.zadn.vn
 DOMAIN-WILDCARD,ad-host-backup-*.*.aliyuncs.com
